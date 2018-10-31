@@ -4,7 +4,20 @@
 |:---:|:---------------------------------------|
 |Content|Learnt, thoughts, progress, ideas, links|
 
+----------------------------------------------------------
 
+## 31 Oct 2018
+
+Reviewed and finished exercises of Javascript Basics
+
+- Learned [falsy values](https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a)
+
+- Enjoyed coding [console version of mini facebook](https://codepen.io/wonma/pen/LgwPdv) while practicing flexbox.
+
+- Learned the importance of of varible scope from my code error!
+  [local vs. global variable](https://www.quora.com/What-happens-when-you-don%E2%80%99t-declare-a-variable-in-Javascript)
+
+- Let's keep calm and practice again. :P
 
 ----------------------------------------------------------
 
