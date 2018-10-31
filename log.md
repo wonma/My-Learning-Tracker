@@ -5,6 +5,22 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 
+
+----------------------------------------------------------
+
+## 30 Oct 2018
+
+Finished analyzing the usage of Flexbox in the layout of the sample website.
+- Flexbox has power in aligning items in one line.
+- It's pretty much controlling how to manipulate the available space.
+- Useful for responsive layout. 
+
+Learned basic strategies about SEO(meta description, backlink), Image Optimization.
+
+Resumed Andre's Javascript course.
+- Created [robot movement](https://codepen.io/wonma/pen/XxLNxo).
+
+
 ----------------------------------------------------------
 
 ## 29 Oct 18
