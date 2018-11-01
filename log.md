@@ -4,6 +4,19 @@
 |:---:|:---------------------------------------|
 |Content|Learnt, thoughts, progress, ideas, links|
 
+
+----------------------------------------------------------
+
+## 1 Nov 2018
+
+JavaScript DOM manipulation - selectors / events / callback functions
+
+- Rebuilt mini facebook again. (Rebuilding till I feel comfortable!)
+
+- Built [To-do list](https://codepen.io/wonma/pen/jegdPW) (Yay! Finally!!.. but need to go over it till I get it firmly.)
+
+- var JavaScript.attribute = "magical";
+
 ----------------------------------------------------------
 
 ## 31 Oct 2018
