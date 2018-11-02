@@ -4,6 +4,17 @@
 |:---:|:---------------------------------------|
 |Content|Learnt, thoughts, progress, ideas, links|
 
+----------------------------------------------------------
+
+## 2 Nov 2018
+
+JavaScript - variable scope, return, object in function, access to property
+
+- Built [To-do list](https://codepen.io/wonma/pen/jegdPW)(2nd) with cleaner code.
+
+- Built [Gradient Generator](https://wonma.github.io/Background-generator)
+
+- Feeling more and more used to making mistakes and finding solutions.
 
 ----------------------------------------------------------
 
