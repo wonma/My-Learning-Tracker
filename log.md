@@ -6,6 +6,19 @@
 
 ----------------------------------------------------------
 
+## 4 Nov 2018
+
+JavaScript - 
+
+- Learned : Object reference, string/number methods, 
+			array methods to manipulate items
+		    restaurant seat checker, number guessing game
+
+- I really like this JS logic world. :D
+
+
+----------------------------------------------------------
+
 ## 3 Nov 2018
 
 JavaScript - 
