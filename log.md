@@ -6,6 +6,17 @@
 
 ----------------------------------------------------------
 
+## 3 Nov 2018
+
+JavaScript - 
+
+- Learned : object, object as an argument of function, 
+			function returning an object,
+
+- It's ok not to understand it at once. It's ok. Keep calm and just try it again.
+
+----------------------------------------------------------
+
 ## 2 Nov 2018
 
 JavaScript - variable scope, return, object in function, access to property
