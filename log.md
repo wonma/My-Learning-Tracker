@@ -13,7 +13,7 @@ JavaScript - messed around with methods, did related exercies
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
 - Challage unsolved : deleting filtered items from array
 
-![misspelling](/../<screenshots>/screenshots/181105_1.jpg?raw=true "misspelling")
+![misspelling](screenshots/181105_1.jpg?raw=true "misspelling")
 
 ----------------------------------------------------------
 
