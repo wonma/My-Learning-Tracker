@@ -13,7 +13,7 @@ JavaScript - messed around with methods, did related exercies
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
 - Challage unsolved : deleting filtered items from array
 
-
+![181105_1](https://user-images.githubusercontent.com/42050917/47991440-80792100-e12d-11e8-8d71-f78f848d7855.JPG)
 
 ----------------------------------------------------------
 
