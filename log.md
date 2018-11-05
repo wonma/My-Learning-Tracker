@@ -6,6 +6,17 @@
 
 ----------------------------------------------------------
 
+## 5 Nov 2018 - Day 9
+
+JavaScript - messed around with methods, did related exercies
+
+- Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
+- Challage unsolved : deleting filtered items from array
+
+![misspelling](/../<screenshots>/screenshots/181105_1.jpeg?raw=true "misspelling")
+
+----------------------------------------------------------
+
 ## 4 Nov 2018
 
 JavaScript - 
