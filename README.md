@@ -28,16 +28,31 @@ Markdown is a lightweight markup language based on the formatting conventions th
 
 This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
+
+
 ### Course Listings
 
-This will be updated soon (below is example from dillinger.io):
+This will be updated :
 
-* [Advanced CSS and Sass - created by Jonas Schmedtmann](https://www.udemy.com/share/1000cABUoac19aQHo=/) - Creating three responsive single-page website using SASS, advanced CSS features, with three layout methods(float, flexbox, CSS Grid)
-* [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/share/10002sBUoac19aQHo=/) - Creating single page website fully responsive, using HTML5, CSS3 and jquery
-* [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/share/10016aBUoac19aQHo=/) - Git, GitHub, Node.js, NPM, Object-oriented JavaScript, ES6, webpack, Gulp, BEM, one single-page website with jquery
-* [Web Design for Beginners: Real World Coding in HTML & CSS](https://www.udemy.com/share/1000mQBUoac19aQHo=/) - HTML5, CSS3, responsive design, Sass, cross device compatibility
-* [Become a WordPress Developer: Unlocking Power With Code](https://www.udemy.com/share/1000FwBUoac19aQHo=/) - PHP, JavaScript, WordPress theming & the WP REST API, a creating custom & interactive WordPress Website
-* [The Complete Web Developer in 2018: Zero to Mastery](https://www.udemy.com/share/1000scBUoac19aQHo=/) - Javascript(ES6/ES7/ES8), React + Redux, Git + Github, Node.js, Express.js, NPM, PostgresSQL, SQL
+* [Advanced CSS and Sass - created by Jonas Schmedtmann](https://www.udemy.com/share/1000cABUoac19aQHo=/) 
+  - Creating three responsive single-page website using SASS, advanced CSS features, with three layout methods(float, flexbox, CSS Grid)
+  
+* [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/share/10002sBUoac19aQHo=/) 
+  - Creating single page website fully responsive, using HTML5, CSS3 and jquery
+  
+* [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/share/10016aBUoac19aQHo=/) 
+  - Git, GitHub, Node.js, NPM, Object-oriented JavaScript, ES6, webpack, Gulp, BEM, one single-page website with jquery
+  
+* [Web Design for Beginners: Real World Coding in HTML & CSS](https://www.udemy.com/share/1000mQBUoac19aQHo=/) 
+  - HTML5, CSS3, responsive design, Sass, cross device compatibility
+  
+* [Become a WordPress Developer: Unlocking Power With Code](https://www.udemy.com/share/1000FwBUoac19aQHo=/) 
+  - PHP, JavaScript, WordPress theming & the WP REST API, a creating custom & interactive WordPress Website
+  
+* [The Complete Web Developer in 2018: Zero to Mastery](https://www.udemy.com/share/1000scBUoac19aQHo=/) 
+  - Javascript(ES6/ES7/ES8), React + Redux, Git + Github, Node.js, Express.js, NPM, PostgresSQL, SQL
+
+
 
 ### Skills
 
