@@ -4,6 +4,19 @@
 |:---:|:---------------------------------------|
 |Content|Learnt, thoughts, progress, ideas, links|
 
+
+----------------------------------------------------------
+
+## 6 Nov 2018 - Day 10
+
+JavaScript - Coded 'Expense Tracker' along with Udemy JS course
+:new: Started [freeCodeCamp JavaScript course](https://learn.freecodecamp.org/)! Such a nice learning resource!
+
+- Learned : use case of querySelector, addEventListener, good use of 'target'
+- Challage unsolved : how to sort the array in an alphabetical order, which has been sorted by boolean.
+
+![181105_1](https://user-images.githubusercontent.com/42050917/47991440-80792100-e12d-11e8-8d71-f78f848d7855.JPG)
+
 ----------------------------------------------------------
 
 ## 5 Nov 2018 - Day 9
@@ -17,7 +30,7 @@ JavaScript - messed around with methods, did related exercies
 
 ----------------------------------------------------------
 
-## 4 Nov 2018
+## 4 Nov 2018 - Day 8
 
 JavaScript - 
 
@@ -30,7 +43,7 @@ JavaScript -
 
 ----------------------------------------------------------
 
-## 3 Nov 2018
+## 3 Nov 2018 - Day 7
 
 JavaScript - 
 
@@ -41,7 +54,7 @@ JavaScript -
 
 ----------------------------------------------------------
 
-## 2 Nov 2018
+## 2 Nov 2018 - Day 6
 
 JavaScript - variable scope, return, object in function, access to property
 
@@ -53,7 +66,7 @@ JavaScript - variable scope, return, object in function, access to property
 
 ----------------------------------------------------------
 
-## 1 Nov 2018
+## 1 Nov 2018 - Day 5
 
 JavaScript DOM manipulation - selectors / events / callback functions
 
@@ -65,7 +78,7 @@ JavaScript DOM manipulation - selectors / events / callback functions
 
 ----------------------------------------------------------
 
-## 31 Oct 2018
+## 31 Oct 2018 - Day 4
 
 Reviewed and finished exercises of Javascript Basics
 
@@ -80,7 +93,7 @@ Reviewed and finished exercises of Javascript Basics
 
 ----------------------------------------------------------
 
-## 30 Oct 2018
+## 30 Oct 2018 - Day 3
 
 Finished analyzing the usage of Flexbox in the layout of the sample website.
 - Flexbox has power in aligning items in one line.
@@ -95,7 +108,7 @@ Resumed Andre's Javascript course.
 
 ----------------------------------------------------------
 
-## 29 Oct 18
+## 29 Oct 18 - Day 2
 
 Reviewed command line basics.
 - Figured out (AGAIN) the importance of distinguishing between relative paths and absolute paths.
@@ -114,7 +127,7 @@ As far as I figured, Flexbox is generally about how you put things in "one line"
 
 ----------------------------------------------------------
 
-## 28 Oct 18
+## 28 Oct 18 - Day 1
 
 Working on [Sample Travel Site](https://github.com/wonma/travel-site) from this great Udemy course, [Git a Web Developer Job](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/) by Brad Schiff.
 
