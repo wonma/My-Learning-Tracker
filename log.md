@@ -10,6 +10,7 @@
 ## 6 Nov 2018 - Day 10
 
 JavaScript - Coded 'Expense Tracker' along with Udemy JS course
+
 :new: Started [freeCodeCamp JavaScript course](https://learn.freecodecamp.org/)! 
 Such a nice learning resource!
 
@@ -17,7 +18,8 @@ Such a nice learning resource!
 - Challage unsolved : how to sort the array in an alphabetical order, which has been sorted by boolean.
 
 ### Best error of today 
-![screen shot 2018-11-06 at 1 44 39 pm](https://user-images.githubusercontent.com/42050917/48065855-2badd700-e20f-11e8-8b8f-6234c0400954.JPG)
+![screen shot 2018-11-06 at 1 44 39 pm](https://user-images.githubusercontent.com/42050917/48065855-2badd700-e20f-11e8-8b8f-6234c0400954.JPG =250x)
+
 forEach needs 'callback function' not a single random argument. 
 
 ----------------------------------------------------------
@@ -29,7 +31,7 @@ JavaScript - messed around with methods, did related exercies
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
 - Challage unsolved : deleting filtered items from array
 
-![181105_1](https://user-images.githubusercontent.com/42050917/47991440-80792100-e12d-11e8-8d71-f78f848d7855.JPG)
+![181105_1](https://user-images.githubusercontent.com/42050917/47991440-80792100-e12d-11e8-8d71-f78f848d7855.JPG =250x)
 
 ----------------------------------------------------------
 
