@@ -19,6 +19,7 @@ Such a nice learning resource!
 
 ### Best error of today 
 ![screen shot 2018-11-06 at 1 44 39 pm](https://user-images.githubusercontent.com/42050917/48065855-2badd700-e20f-11e8-8b8f-6234c0400954.JPG =250x)
+<img src="https://user-images.githubusercontent.com/42050917/48065855-2badd700-e20f-11e8-8b8f-6234c0400954.JPGg" alt="drawing" width="200"/>
 
 forEach needs 'callback function' not a single random argument. 
 
