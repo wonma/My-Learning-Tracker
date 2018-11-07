@@ -59,7 +59,7 @@ button.addEventListener('click', function (e) {
 JavaScript - messed around with methods, did related exercies
 
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
-- Self Challage 01 unsolved : ~~deleting filtered items from array~~ [solved](###Solved-Challenge-01).
+- Self Challage 01 unsolved : ~~deleting filtered items from array~~ [solved](#Solved-Challenge-01).
 
 ----------------------------------------------------------
 
