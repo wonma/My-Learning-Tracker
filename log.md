@@ -8,68 +8,14 @@
 ----------------------------------------------------------  
 ## 7 Nov 2018 - Day 11
 
-### JavaScript - Coded 'Expense Tracker' along with Udemy JS course
-
-:new: Started [freeCodeCamp JavaScript course](https://learn.freecodecamp.org/)! 
-Such a nice learning resource!
+### JavaScript - Coded 'To-do app' along with Udemy JS course
 
 - Learned : 
-  querySelector, addEventListener, good use of 'target'
-- Self-Challage 03 : .
+  How to code to-do logic (live-search, adding new itemsm, starting off in clean slate)  
+  
+- Started :
+  Asking questions in the course Q&A section and trying to think about others' questions, finding answers together (for the contents of the lectures I've already passed. Good job, Wonmi! 
 
-### Best error of today 
-```JavaScript
-const body = document.querySelector('body')
-const button = document.querySelector('button')
-
-button.addEventListener('click', function (e) {
-    e.textContent = 'hahaha'
-})
-```
-
-### Solved Challenge 01
-Sorting the array in an alphabetical order, which has been sorted by boolean.. (6 Nov 2018)  
-**Solution** : Used if statement to make two criteria of sort method.
-```JavaScript
-const sortTodos = function(todos) {
-    const sortedList = todos.sort(function (todo1, todo2) {
-        if(todo1.completed !== todo2.completed) {
-            if (Number(todo1.completed) > Number(todo2.completed)) {
-                return 1
-            } else if (Number(todo1.completed) < Number(todo2.completed)) {
-                return -1
-            } else {
-                return 0
-            }
-        } else {
-            if (todo1.text.toLowerCase() > todo2.text.toLowerCase()) {
-                return 1
-            } else if (todo1.text.toLowerCase() > todo2.text.toLowerCase()) {
-                return -1
-            } else {
-                return 0
-            } 
-        }
-    })
-    return sortedList
-}
-console.log(sortTodos(todos))
-```
-
-### Solved Challenge 02
-Deleting filtered items(elements that have the same value).  
-**Solution** : Used _forEach_ instead of _.filter_ (5 Nov 2018)
-```JavaScript
-const deleteIncomplete = function (array) {
-    array.forEach(function (todo, index) {
-        if(todo.completed) {
-            array.splice(index, 1)
-        } 
-    })
-}
-deleteIncomplete(todos)
-console.log(todos)
-```
 &nbsp;
 &nbsp;
 &nbsp;
