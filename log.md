@@ -42,7 +42,7 @@ const deleteIncomplete = function (array) {
 deleteIncomplete(todos)
 console.log(todos)
 ```
-\ 
+
 ----------------------------------------------------------  
 \
 \
