@@ -57,7 +57,7 @@ console.log(sortTodos(todos))
 
 ### Solved Challenge 02
 Deleting filtered items(elements that have the same value).  
-**Solutio** : Used _forEach_ instead of _.filter_ (5 Nov 2018)
+**Solution** : Used _forEach_ instead of _.filter_ (5 Nov 2018)
 ```JavaScript
 const deleteIncomplete = function (array) {
     array.forEach(function (todo, index) {
@@ -82,7 +82,7 @@ JavaScript - Coded 'Expense Tracker' along with Udemy JS course
 Such a nice learning resource!
 
 - Learned : use case of querySelector, addEventListener, good use of 'target'
-- Self-Challage 02 : how to sort the array in an alphabetical order, which has been sorted by boolean. :round_pushpin:[solved][#Solved-Challenge-02]).
+- Self-Challage 02 : how to sort the array in an alphabetical order, which has been sorted by boolean. :round_pushpin:[solved](#Solved-Challenge-02]).
 
 ### Best error of today 
 ```JavaScript
