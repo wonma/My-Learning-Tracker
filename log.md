@@ -42,8 +42,7 @@ const deleteIncomplete = function (array) {
 deleteIncomplete(todos)
 console.log(todos)
 ```
-\
-\
+\\
 
 ----------------------------------------------------------  
 ## 6 Nov 2018 - Day 10
