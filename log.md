@@ -4,6 +4,31 @@
 |:---:|:---------------------------------------|
 |Content|Learnt, thoughts, progress, ideas, links|
 
+----------------------------------------------------------
+
+## 6 Nov 2018 - Day 10
+
+JavaScript - Coded 'Expense Tracker' along with Udemy JS course
+
+:new: Started [freeCodeCamp JavaScript course](https://learn.freecodecamp.org/)! 
+Such a nice learning resource!
+
+- Learned : use case of querySelector, addEventListener, good use of 'target'
+- Challage unsolved : how to sort the array in an alphabetical order, which has been sorted by boolean.
+
+### Best error of today 
+```JavaScript
+const body = document.querySelector('body')
+const button = document.querySelector('button')
+
+button.addEventListener('click', function (e) {
+    e.textContent = 'hahaha'
+})
+```
+
+### Solved Challenge 01
+
+
 
 ----------------------------------------------------------
 
@@ -34,7 +59,7 @@ button.addEventListener('click', function (e) {
 JavaScript - messed around with methods, did related exercies
 
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
-- Challage unsolved : deleting filtered items from array
+- Self Challage 01 unsolved : ~~deleting filtered items from array~~ [solved](###Solved-Challenge-01).
 
 ----------------------------------------------------------
 
