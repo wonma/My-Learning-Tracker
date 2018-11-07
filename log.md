@@ -27,7 +27,19 @@ button.addEventListener('click', function (e) {
 ```
 
 ### Solved Challenge 01
-
+What: To deleted filtered items(elements that have the same value).
+How: Used **forEach** instead of .filter
+```JavaScript
+const deleteIncomplete = function (array) {
+    array.forEach(function (todo, index) {
+        if(todo.completed) {
+            array.splice(index, 1)
+        } 
+    })
+}
+deleteIncomplete(todos)
+console.log(todos)
+```
 
 
 ----------------------------------------------------------
@@ -59,7 +71,7 @@ button.addEventListener('click', function (e) {
 JavaScript - messed around with methods, did related exercies
 
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
-- Self Challage 01 unsolved : ~~deleting filtered items from array~~ [solved](#Solved-Challenge-01).
+- Self Challage 01 unsolved : ~~deleting filtered items from array~~ :round_pushpin:[solved](#Solved-Challenge-01).
 
 ----------------------------------------------------------
 
