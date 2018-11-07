@@ -6,7 +6,7 @@
 
 
 ----------------------------------------------------------  
-## 6 Nov 2018 - Day 10
+## 7 Nov 2018 - Day 11
 
 ### JavaScript - Coded 'Expense Tracker' along with Udemy JS course
 
@@ -27,6 +27,36 @@ button.addEventListener('click', function (e) {
 ```
 
 ### Solved Challenge 01
+When: 5 Nov 2018  
+What: Deleting filtered items(elements that have the same value).  
+How: Used _forEach_ instead of _.filter_
+```JavaScript
+const sortTodos = function(todos) {
+    const sortedList = todos.sort(function (todo1, todo2) {
+        if(todo1.completed !== todo2.completed) {
+            if (Number(todo1.completed) > Number(todo2.completed)) {
+                return 1
+            } else if (Number(todo1.completed) < Number(todo2.completed)) {
+                return -1
+            } else {
+                return 0
+            }
+        } else {
+            if (todo1.text.toLowerCase() > todo2.text.toLowerCase()) {
+                return 1
+            } else if (todo1.text.toLowerCase() > todo2.text.toLowerCase()) {
+                return -1
+            } else {
+                return 0
+            } 
+        }
+    })
+    return sortedList
+}
+console.log(sortTodos(todos))
+```
+
+### Solved Challenge 02
 When: 5 Nov 2018  
 What: Deleting filtered items(elements that have the same value).  
 How: Used _forEach_ instead of _.filter_
@@ -54,7 +84,7 @@ JavaScript - Coded 'Expense Tracker' along with Udemy JS course
 Such a nice learning resource!
 
 - Learned : use case of querySelector, addEventListener, good use of 'target'
-- Challage unsolved : how to sort the array in an alphabetical order, which has been sorted by boolean.
+- Self-Challage 02 : how to sort the array in an alphabetical order, which has been sorted by boolean. :round_pushpin:[solved][#Solved-Challenge-02]).
 
 ### Best error of today 
 ```JavaScript
@@ -75,7 +105,7 @@ button.addEventListener('click', function (e) {
 JavaScript - messed around with methods, did related exercies
 
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
-- Self Challage 01 unsolved : ~~deleting filtered items from array~~ :round_pushpin:[solved](#Solved-Challenge-01).
+- Self-Challage 01 unsolved : deleting filtered items from array :round_pushpin:[solved](#Solved-Challenge-01).
 
 &nbsp;
 &nbsp;
