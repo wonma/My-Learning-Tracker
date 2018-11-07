@@ -9,7 +9,7 @@
 
 ## 6 Nov 2018 - Day 10
 
-JavaScript - Coded 'Expense Tracker' along with Udemy JS course
+### JavaScript - Coded 'Expense Tracker' along with Udemy JS course
 
 :new: Started [freeCodeCamp JavaScript course](https://learn.freecodecamp.org/)! 
 Such a nice learning resource!
@@ -29,7 +29,7 @@ button.addEventListener('click', function (e) {
 
 ### Solved Challenge 01
 When: 5 Nov 2018  
-What: To deleted filtered items(elements that have the same value).  
+What: Deleting filtered items(elements that have the same value).  
 How: Used _forEach_ instead of _.filter_
 ```JavaScript
 const deleteIncomplete = function (array) {
@@ -66,22 +66,22 @@ button.addEventListener('click', function (e) {
     e.textContent = 'hahaha'
 })
 ```
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 5 Nov 2018 - Day 9
 
 JavaScript - messed around with methods, did related exercies
 
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
 - Self Challage 01 unsolved : ~~deleting filtered items from array~~ :round_pushpin:[solved](#Solved-Challenge-01).
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 4 Nov 2018 - Day 8
 
 JavaScript - 
@@ -91,12 +91,11 @@ JavaScript -
 		    restaurant seat checker, number guessing game
 
 - I really like this JS logic world. :D
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 3 Nov 2018 - Day 7
 
 JavaScript - 
@@ -105,11 +104,11 @@ JavaScript -
 			function returning an object,
 
 - It's ok not to understand it at once. It's ok. Keep calm and just try it again.
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 2 Nov 2018 - Day 6
 
 JavaScript - variable scope, return, object in function, access to property
@@ -119,11 +118,11 @@ JavaScript - variable scope, return, object in function, access to property
 - Built [Gradient Generator](https://wonma.github.io/Background-generator)
 
 - Feeling more and more used to making mistakes and finding solutions.
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 1 Nov 2018 - Day 5
 
 JavaScript DOM manipulation - selectors / events / callback functions
@@ -133,11 +132,11 @@ JavaScript DOM manipulation - selectors / events / callback functions
 - Built [To-do list](https://codepen.io/wonma/pen/jegdPW) (Yay! Finally!!.. but need to go over it till I get it firmly.)
 
 - var JavaScript.attribute = "magical";
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 31 Oct 2018 - Day 4
 
 Reviewed and finished exercises of Javascript Basics
@@ -150,11 +149,11 @@ Reviewed and finished exercises of Javascript Basics
   [local vs. global variable](https://www.quora.com/What-happens-when-you-don%E2%80%99t-declare-a-variable-in-Javascript)
 
 - Let's keep calm and practice again. :P
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 30 Oct 2018 - Day 3
 
 Finished analyzing the usage of Flexbox in the layout of the sample website.
@@ -166,12 +165,11 @@ Learned basic strategies about SEO(meta description, backlink), Image Optimizati
 
 Resumed Andre's Javascript course.
 - Created [robot movement](https://codepen.io/wonma/pen/XxLNxo).
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 29 Oct 18 - Day 2
 
 Reviewed command line basics.
@@ -187,19 +185,14 @@ Played with Flexbox.
 - Analyzed structure of [the sample website](https://wonma.github.io/trillo/) I built a month ago, focusing primarily on the usage of flexbox. (halfway done.)
 
 As far as I figured, Flexbox is generally about how you put things in "one line" either in a row or in a column. It's like a column flex in a row flex in a column flex etc...
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 ----------------------------------------------------------
-
-
-
 ## 28 Oct 18 - Day 1
 
 Working on [Sample Travel Site](https://github.com/wonma/travel-site) from this great Udemy course, [Git a Web Developer Job](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/) by Brad Schiff.
 
 Succesfully Finished deploying [the Travel Site](https://wonma.github.io/travel-site/) following the course! 
-
-
-----------------------------------------------------------
-
 
