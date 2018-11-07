@@ -27,9 +27,8 @@ button.addEventListener('click', function (e) {
 ```
 
 ### Solved Challenge 01
-When: 5 Nov 2018  
-What: Deleting filtered items(elements that have the same value).  
-How: Used _forEach_ instead of _.filter_
+Deleting filtered items(elements that have the same value). (6 Nov 2018)  
+**Solution** : Used if statement to make two criteria of sort method.
 ```JavaScript
 const sortTodos = function(todos) {
     const sortedList = todos.sort(function (todo1, todo2) {
@@ -57,9 +56,8 @@ console.log(sortTodos(todos))
 ```
 
 ### Solved Challenge 02
-When: 5 Nov 2018  
-What: Deleting filtered items(elements that have the same value).  
-How: Used _forEach_ instead of _.filter_
+Deleting filtered items(elements that have the same value).  
+**Solutio** : Used _forEach_ instead of _.filter_ (5 Nov 2018)
 ```JavaScript
 const deleteIncomplete = function (array) {
     array.forEach(function (todo, index) {
