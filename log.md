@@ -5,7 +5,7 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 
-----------------------------------------------------------
+----------------------------------------------------------  
 
 ## 6 Nov 2018 - Day 10
 
@@ -28,7 +28,7 @@ button.addEventListener('click', function (e) {
 ```
 
 ### Solved Challenge 01
-When: 5 Nov 2018
+When: 5 Nov 2018  
 What: To deleted filtered items(elements that have the same value).  
 How: Used _forEach_ instead of _.filter_
 ```JavaScript
@@ -44,7 +44,7 @@ console.log(todos)
 ```
 
 
-----------------------------------------------------------
+----------------------------------------------------------  
 
 
 
