@@ -6,7 +6,6 @@
 
 
 ----------------------------------------------------------  
-
 ## 6 Nov 2018 - Day 10
 
 ### JavaScript - Coded 'Expense Tracker' along with Udemy JS course
@@ -77,6 +76,7 @@ JavaScript - messed around with methods, did related exercies
 
 - Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
 - Self Challage 01 unsolved : ~~deleting filtered items from array~~ :round_pushpin:[solved](#Solved-Challenge-01).
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -91,6 +91,7 @@ JavaScript -
 		    restaurant seat checker, number guessing game
 
 - I really like this JS logic world. :D
+
 &nbsp;
 &nbsp;
 &nbsp;
