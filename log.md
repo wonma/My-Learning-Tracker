@@ -4,6 +4,7 @@
 |:---:|:---------------------------------------|
 |Content|Learnt, thoughts, progress, ideas, links|
 
+
 ----------------------------------------------------------
 
 ## 6 Nov 2018 - Day 10
@@ -27,8 +28,9 @@ button.addEventListener('click', function (e) {
 ```
 
 ### Solved Challenge 01
-What: To deleted filtered items(elements that have the same value).
-How: Used **forEach** instead of .filter
+When: 5 Nov 2018
+What: To deleted filtered items(elements that have the same value).  
+How: Used _forEach_ instead of _.filter_
 ```JavaScript
 const deleteIncomplete = function (array) {
     array.forEach(function (todo, index) {
@@ -43,6 +45,8 @@ console.log(todos)
 
 
 ----------------------------------------------------------
+
+
 
 ## 6 Nov 2018 - Day 10
 
@@ -66,6 +70,8 @@ button.addEventListener('click', function (e) {
 
 ----------------------------------------------------------
 
+
+
 ## 5 Nov 2018 - Day 9
 
 JavaScript - messed around with methods, did related exercies
@@ -74,6 +80,8 @@ JavaScript - messed around with methods, did related exercies
 - Self Challage 01 unsolved : ~~deleting filtered items from array~~ :round_pushpin:[solved](#Solved-Challenge-01).
 
 ----------------------------------------------------------
+
+
 
 ## 4 Nov 2018 - Day 8
 
@@ -88,6 +96,8 @@ JavaScript -
 
 ----------------------------------------------------------
 
+
+
 ## 3 Nov 2018 - Day 7
 
 JavaScript - 
@@ -98,6 +108,8 @@ JavaScript -
 - It's ok not to understand it at once. It's ok. Keep calm and just try it again.
 
 ----------------------------------------------------------
+
+
 
 ## 2 Nov 2018 - Day 6
 
@@ -111,6 +123,8 @@ JavaScript - variable scope, return, object in function, access to property
 
 ----------------------------------------------------------
 
+
+
 ## 1 Nov 2018 - Day 5
 
 JavaScript DOM manipulation - selectors / events / callback functions
@@ -122,6 +136,8 @@ JavaScript DOM manipulation - selectors / events / callback functions
 - var JavaScript.attribute = "magical";
 
 ----------------------------------------------------------
+
+
 
 ## 31 Oct 2018 - Day 4
 
@@ -138,6 +154,8 @@ Reviewed and finished exercises of Javascript Basics
 
 ----------------------------------------------------------
 
+
+
 ## 30 Oct 2018 - Day 3
 
 Finished analyzing the usage of Flexbox in the layout of the sample website.
@@ -152,6 +170,8 @@ Resumed Andre's Javascript course.
 
 
 ----------------------------------------------------------
+
+
 
 ## 29 Oct 18 - Day 2
 
@@ -171,6 +191,8 @@ As far as I figured, Flexbox is generally about how you put things in "one line"
 
 
 ----------------------------------------------------------
+
+
 
 ## 28 Oct 18 - Day 1
 
