@@ -13,8 +13,9 @@
 :new: Started [freeCodeCamp JavaScript course](https://learn.freecodecamp.org/)! 
 Such a nice learning resource!
 
-- Learned : use case of querySelector, addEventListener, good use of 'target'
-- Challage unsolved : .
+- Learned : 
+  querySelector, addEventListener, good use of 'target'
+- Self-Challage 03 : .
 
 ### Best error of today 
 ```JavaScript
