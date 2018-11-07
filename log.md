@@ -105,6 +105,7 @@ JavaScript -
 			function returning an object,
 
 - It's ok not to understand it at once. It's ok. Keep calm and just try it again.
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -119,6 +120,7 @@ JavaScript - variable scope, return, object in function, access to property
 - Built [Gradient Generator](https://wonma.github.io/Background-generator)
 
 - Feeling more and more used to making mistakes and finding solutions.
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -133,6 +135,7 @@ JavaScript DOM manipulation - selectors / events / callback functions
 - Built [To-do list](https://codepen.io/wonma/pen/jegdPW) (Yay! Finally!!.. but need to go over it till I get it firmly.)
 
 - var JavaScript.attribute = "magical";
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -150,6 +153,7 @@ Reviewed and finished exercises of Javascript Basics
   [local vs. global variable](https://www.quora.com/What-happens-when-you-don%E2%80%99t-declare-a-variable-in-Javascript)
 
 - Let's keep calm and practice again. :P
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -166,6 +170,7 @@ Learned basic strategies about SEO(meta description, backlink), Image Optimizati
 
 Resumed Andre's Javascript course.
 - Created [robot movement](https://codepen.io/wonma/pen/XxLNxo).
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -186,6 +191,7 @@ Played with Flexbox.
 - Analyzed structure of [the sample website](https://wonma.github.io/trillo/) I built a month ago, focusing primarily on the usage of flexbox. (halfway done.)
 
 As far as I figured, Flexbox is generally about how you put things in "one line" either in a row or in a column. It's like a column flex in a row flex in a column flex etc...
+
 &nbsp;
 &nbsp;
 &nbsp;
