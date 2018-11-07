@@ -14,7 +14,7 @@
 Such a nice learning resource!
 
 - Learned : use case of querySelector, addEventListener, good use of 'target'
-- Challage unsolved : how to sort the array in an alphabetical order, which has been sorted by boolean.
+- Challage unsolved : .
 
 ### Best error of today 
 ```JavaScript
@@ -27,7 +27,7 @@ button.addEventListener('click', function (e) {
 ```
 
 ### Solved Challenge 01
-Deleting filtered items(elements that have the same value). (6 Nov 2018)  
+Sorting the array in an alphabetical order, which has been sorted by boolean.. (6 Nov 2018)  
 **Solution** : Used if statement to make two criteria of sort method.
 ```JavaScript
 const sortTodos = function(todos) {
