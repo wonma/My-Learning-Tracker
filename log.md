@@ -50,7 +50,22 @@
   Asking questions in the course Q&A section and trying to think about others' questions, finding answers together (for the contents of the lectures I've already passed. Good job, Wonmi! 
 
 ### Solved Challenge 01
-Sorting the array in an alphabetical order, which has been sorted by boolean.. (6 Nov 2018)  
+**Mission** : Deleting filtered items(elements that have the same value).  
+**Solution** : Used _forEach_ instead of _.filter_ (5 Nov 2018)
+```JavaScript
+const deleteIncomplete = function (array) {
+    array.forEach(function (todo, index) {
+        if(todo.completed) {
+            array.splice(index, 1)
+        } 
+    })
+}
+deleteIncomplete(todos)
+console.log(todos)
+```
+
+### Solved Challenge 02
+**Mission** Sorting the array in an alphabetical order, which has been sorted by boolean.. (6 Nov 2018)  
 **Solution** : Used if statement to make two criteria of sort method.
 ```JavaScript
 const sortTodos = function(todos) {
@@ -76,21 +91,8 @@ const sortTodos = function(todos) {
     return sortedList
 }
 console.log(sortTodos(todos))
-```
- ### Solved Challenge 02
-Deleting filtered items(elements that have the same value).  
-**Solution** : Used _forEach_ instead of _.filter_ (5 Nov 2018)
-```JavaScript
-const deleteIncomplete = function (array) {
-    array.forEach(function (todo, index) {
-        if(todo.completed) {
-            array.splice(index, 1)
-        } 
-    })
-}
-deleteIncomplete(todos)
-console.log(todos)
-```
+``` 
+
 
 &nbsp;
 &nbsp;
