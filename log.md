@@ -107,7 +107,7 @@ JavaScript - Coded 'Expense Tracker' along with Udemy JS course
 Such a nice learning resource!
 
 - Learned : use case of querySelector, addEventListener, good use of 'target'
-- Self-Challage 02 : how to sort the array in an alphabetical order, which has been sorted by boolean. :round_pushpin:[solved](#Solved-Challenge-02]).
+- Self-Challage 02 : how to sort the array in an alphabetical order, which has been sorted by boolean. :round_pushpin:[solved](#Solved-Challenge-02).
 
 ### Best error of today 
 ```JavaScript
