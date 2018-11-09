@@ -15,7 +15,7 @@
   localStorage methods (CRUD) and how to fetch the data into my JS code.  
   .setItem(), .getItem(), removeItem(), JSON.stringify(), JSON.parse()
   
-- 
+### Best error of today  
   
 
 &nbsp;
@@ -32,7 +32,10 @@
   esp, the power of **logical operation in a single filter**, when two kinds of criteria are applied for filtering.  
   
   
-### Best error of today 
+### Today's coder shot
+![code-recipes](https://user-images.githubusercontent.com/42050917/48263988-51cfb300-e46b-11e8-855f-25e4de3031b3.jpg)
+![kakaotalk_photo_2018-11-09-14-28-46](https://user-images.githubusercontent.com/42050917/48263990-51cfb300-e46b-11e8-8fae-91533653febf.jpeg)
+
 
 &nbsp;
 &nbsp;
