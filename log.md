@@ -5,13 +5,46 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 
+
+----------------------------------------------------------  
+## 9 Nov 2018 - Day 13
+
+### JavaScript - Coded 'To-do app' along with Udemy JS course
+
+- Learned : 
+  localStorage methods (CRUD) and how to fetch the data into my JS code.  
+  .setItem(), .getItem(), removeItem(), JSON.stringify(), JSON.parse()
+  
+- 
+  
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+----------------------------------------------------------  
+## 8 Nov 2018 - Day 12
+
+### JavaScript - Analyzed 'To-do app' logic. My solution vs. Teacher's solution
+
+- Learned : 
+  How to combine two similar functions into one, making code clean.  
+  esp, the power of **logical operation in a single filter**, when two kinds of criteria are applied for filtering.  
+  
+  
+### Best error of today 
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 ----------------------------------------------------------  
 ## 7 Nov 2018 - Day 11
 
 ### JavaScript - Coded 'To-do app' along with Udemy JS course
 
 - Learned : 
-  How to code to-do logic (live-search, adding new itemsm, starting off in clean slate)  
+  How to code to-do logic (live-search, adding new items, starting off in clean slate)  
   
 - Started :
   Asking questions in the course Q&A section and trying to think about others' questions, finding answers together (for the contents of the lectures I've already passed. Good job, Wonmi! 
