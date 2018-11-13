@@ -29,7 +29,7 @@ A. My code (I used findIndex)
 ```  
 See how simple my teacher made the conditional statement.  
   
-A. Teacher's code
+A. Teacher's code (He used 'find' method)
 ```JavaScript
     const todoToCheck = todos.find(function (todo) {
         return todo.id === id
@@ -38,8 +38,9 @@ A. Teacher's code
         todoToCheck.completed = !todoToCheck.completed
     }
 ```
+---
 
-B. My code
+B. My code (I used if statement)
 
 ```JavaScript
         checkboxEl.setAttribute('type', 'checkbox')
@@ -48,7 +49,7 @@ B. My code
         }
 ```
 
-B. Teacher's code
+B. Teacher's code (He used the fact that they both return boolean values)
 
 ```JavaScript
 checkboxEl.setAttribute('type', 'checkbox')
