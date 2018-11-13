@@ -7,6 +7,75 @@
 
 
 ----------------------------------------------------------  
+## 12 Nov 2018 - Day 15
+
+### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+
+- Learned : continued building notes-app & todos-app.  
+	    improved the features with id(using uuid) / location.assign / complex DOM structure
+ 
+### My Code vs. Better Code
+
+A. My code (I used findIndex)
+```JavaScript
+    const checkTodoId = todos.findIndex(function (todo) {
+        return todo.id === id
+    }) 
+    if(!todos[checkTodoId].completed){
+        todos[checkTodoId].completed = true
+    } else {
+        todos[checkTodoId].completed = false
+    }
+```  
+See how simple my teacher made the conditional statement.  
+  
+A. Teacher's code
+```JavaScript
+    const todoToCheck = todos.find(function (todo) {
+        return todo.id === id
+    })
+    if(todoToCheck !== undefined) {
+        todoToCheck.completed = !todoToCheck.completed
+    }
+```
+
+B. My code
+
+```JavaScript
+        checkboxEl.setAttribute('type', 'checkbox')
+        if (eachTodo.completed === true) {
+            checkboxEl.setAttribute('checked', true)
+        }
+```
+
+B. Teacher's code
+
+```JavaScript
+checkboxEl.setAttribute('type', 'checkbox')
+        
+        checkboxEl.checked = eachTodo.completed
+```
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
+## 11 Nov 2018 - Day 14
+
+### JavaScript - with [freeCodeCamp](https://learn.freecodecamp.org/)
+
+- Learned : Basics of JS - comparison - loop - accessing properties of object - array - random number
+ 
+- Started : to keep track of what I want to recall, I started to make 'self-quiz' notes following FCC.
+![screen shot 2018-11-13 at 12 44 31 pm](https://user-images.githubusercontent.com/42050917/48389677-fbe85d00-e741-11e8-83bc-4ae44ba2f0d6.JPG)
+  
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 9 Nov 2018 - Day 13
 
 ### JavaScript - Coded 'To-do app' along with Udemy JS course
@@ -14,9 +83,7 @@
 - Learned : 
   localStorage methods (CRUD) and how to fetch the data into my JS code.  
   .setItem(), .getItem(), removeItem(), JSON.stringify(), JSON.parse()
-  
-### Best error of today  
-  
+    
 
 &nbsp;
 &nbsp;
