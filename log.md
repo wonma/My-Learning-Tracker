@@ -40,21 +40,20 @@ A. Teacher's code (He used 'find' method)
 ```
 ---
 
-B. My code (I used if statement)
+B. My code (I used if statement **to give true if the result is true lol**)
 
 ```JavaScript
-        checkboxEl.setAttribute('type', 'checkbox')
-        if (eachTodo.completed === true) {
-            checkboxEl.setAttribute('checked', true)
-        }
+   checkboxEl.setAttribute('type', 'checkbox')
+   if (eachTodo.completed === true) {
+       checkboxEl.setAttribute('checked', true)
+   }
 ```
 
-B. Teacher's code (He used the fact that they both return boolean values)
+B. Teacher's code (He used the fact that **they both return boolean values** )
 
 ```JavaScript
-checkboxEl.setAttribute('type', 'checkbox')
-        
-        checkboxEl.checked = eachTodo.completed
+   checkboxEl.setAttribute('type', 'checkbox')    
+   checkboxEl.checked = eachTodo.completed
 ```
 
 &nbsp;
