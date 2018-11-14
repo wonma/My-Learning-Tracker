@@ -5,6 +5,112 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 
+----------------------------------------------------------  
+## 14 Nov 2018 - Day 17
+
+### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+
+- Learned : continued building notes-app & todos-app.  
+	    improved the features with id(using uuid) / location.assign / complex DOM structure
+ 
+### My Code vs. Better Code
+
+A. My code (I used findIndex)
+```JavaScript
+    const checkTodoId = todos.findIndex(function (todo) {
+        return todo.id === id
+    }) 
+    if(!todos[checkTodoId].completed){
+        todos[checkTodoId].completed = true
+    } else {
+        todos[checkTodoId].completed = false
+    }
+```  
+See how simple my teacher made the conditional statement.  
+  
+A. Teacher's code (He used 'find' method)
+```JavaScript
+    const todoToCheck = todos.find(function (todo) {
+        return todo.id === id
+    })
+    if(todoToCheck !== undefined) {
+        todoToCheck.completed = !todoToCheck.completed
+    }
+```
+---
+
+B. My code (I used if statement **to give true if the result is true lol**)
+
+```JavaScript
+   checkboxEl.setAttribute('type', 'checkbox')
+   if (eachTodo.completed === true) {
+       checkboxEl.setAttribute('checked', true)
+   }
+```
+
+B. Teacher's code (He used the fact that **they both return boolean values** )
+
+```JavaScript
+   checkboxEl.setAttribute('type', 'checkbox')    
+   checkboxEl.checked = eachTodo.completed
+```
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+
+----------------------------------------------------------  
+## 13 Nov 2018 - Day 16
+
+### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+
+- Learned : continued building notes-app & todos-app.  
+	    Syncing data across pages / JS date () / moment js /  
+	    integrating dates into the app (sort by recency or last edition)
+ 
+### My Code vs. Better Code
+
+
+
+A. My code (I used findIndex)
+```JavaScript
+
+
+```  
+See how simple my teacher made the conditional statement.  
+  
+A. Teacher's code (He used 'find' method)
+```JavaScript
+    const todoToCheck = todos.find(function (todo) {
+        return todo.id === id
+    })
+    if(todoToCheck !== undefined) {
+        todoToCheck.completed = !todoToCheck.completed
+    }
+```
+---
+
+B. My code (I used if statement **to give true if the result is true lol**)
+
+```JavaScript
+   checkboxEl.setAttribute('type', 'checkbox')
+   if (eachTodo.completed === true) {
+       checkboxEl.setAttribute('checked', true)
+   }
+```
+
+B. Teacher's code (He used the fact that **they both return boolean values** )
+
+```JavaScript
+   checkboxEl.setAttribute('type', 'checkbox')    
+   checkboxEl.checked = eachTodo.completed
+```
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
 
 ----------------------------------------------------------  
 ## 12 Nov 2018 - Day 15
