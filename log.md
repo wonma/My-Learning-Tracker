@@ -9,51 +9,29 @@
 ## 14 Nov 2018 - Day 17
 
 ### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+on building notes-app & todos-app  
 
-- Learned : continued building notes-app & todos-app.  
-	    improved the features with id(using uuid) / location.assign / complex DOM structure
+- Learned : Arrow function - Ternary operator - Truthy/falsy values - Type coercion
  
-### My Code vs. Better Code
+### Best Error of Today
 
-A. My code (I used findIndex)
-```JavaScript
-    const checkTodoId = todos.findIndex(function (todo) {
-        return todo.id === id
-    }) 
-    if(!todos[checkTodoId].completed){
-        todos[checkTodoId].completed = true
-    } else {
-        todos[checkTodoId].completed = false
-    }
-```  
-See how simple my teacher made the conditional statement.  
-  
-A. Teacher's code (He used 'find' method)
-```JavaScript
-    const todoToCheck = todos.find(function (todo) {
-        return todo.id === id
-    })
-    if(todoToCheck !== undefined) {
-        todoToCheck.completed = !todoToCheck.completed
-    }
-```
----
-
-B. My code (I used if statement **to give true if the result is true lol**)
+**'return'** matters a LOT in functions.  
+Reviewed : function declaration, function expression (in an anonymous function), concept of 'returning' a value  
 
 ```JavaScript
-   checkboxEl.setAttribute('type', 'checkbox')
-   if (eachTodo.completed === true) {
-       checkboxEl.setAttribute('checked', true)
-   }
-```
+const getData = () => {
+    const todosJSON = localStorage.getItem('todos')
+    todosJSON ? JSON.parse(todosJSON) : []
+}
+``` 
+This crashes 'cuz it getData doesn't return anyting, but just resulting in '**undefined**' .
+I should've put 'return' before the ternary operator.  
+Then, it returns a type of array, not undefined.
+ 
+### Today's coder shot
 
-B. Teacher's code (He used the fact that **they both return boolean values** )
-
-```JavaScript
-   checkboxEl.setAttribute('type', 'checkbox')    
-   checkboxEl.checked = eachTodo.completed
-```
+![screen shot 2018-11-14 at 9 15 14 pm](https://user-images.githubusercontent.com/42050917/48481898-6dafcc00-e852-11e8-9591-d55a1f7f900f.JPG)
+_Todos-app(left), Notes-app(right)_
 
 &nbsp;
 &nbsp;
@@ -71,41 +49,26 @@ B. Teacher's code (He used the fact that **they both return boolean values** )
  
 ### My Code vs. Better Code
 
-
-
-A. My code (I used findIndex)
+A1. My code  
+(I could've accessed the individual note's timestamp in note-edit.js .)
 ```JavaScript
-
-
+// note-functions.js  
+const generateLastEdited = (note) => {
+    const lastTimestamp = note.updatedAt
+    timeInfo.textContent = `Last edited ${moment(lastTimestamp).fromNow()}`
+}
 ```  
-See how simple my teacher made the conditional statement.  
+Tearcher did 'real' refactoring. He separted a function and just let it return a value.  
+Then, used the value where he needs it. 
   
-A. Teacher's code (He used 'find' method)
-```JavaScript
-    const todoToCheck = todos.find(function (todo) {
-        return todo.id === id
-    })
-    if(todoToCheck !== undefined) {
-        todoToCheck.completed = !todoToCheck.completed
-    }
-```
----
-
-B. My code (I used if statement **to give true if the result is true lol**)
-
-```JavaScript
-   checkboxEl.setAttribute('type', 'checkbox')
-   if (eachTodo.completed === true) {
-       checkboxEl.setAttribute('checked', true)
-   }
-```
-
-B. Teacher's code (He used the fact that **they both return boolean values** )
-
-```JavaScript
-   checkboxEl.setAttribute('type', 'checkbox')    
-   checkboxEl.checked = eachTodo.completed
-```
+A2. Teacher's code (He simply got the timestamp passed into a function.)
+```JavaScript  
+// note-functions.js  
+const generateLastEdited = (timestamp) => `Last edited ${moment(timestamp).fromNow()}` 
+  
+// note-edit.js
+timeInfo.textContent = generateLastEdited(matchedNote.updatedAt)
+```  
 
 &nbsp;
 &nbsp;
