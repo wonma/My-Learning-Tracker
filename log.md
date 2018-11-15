@@ -55,7 +55,7 @@ _by Teacher Andrew Mead, Udemy[the Modern JavaScript Bootcamp 2018](https://www.
 ----------------------------------------------------------  
 ## 14 Nov 2018 - Day 17
 
-### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+### JavaScript
 on building notes-app & todos-app  
 
 :small_orange_diamond: Arrow function - Ternary operator - Truthy/falsy values - Type coercion
@@ -90,8 +90,7 @@ _Todos-app(left), Notes-app(right)_
 ----------------------------------------------------------  
 ## 13 Nov 2018 - Day 16
 
-### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
-
+### JavaScript
 
 :small_orange_diamond: continued building notes-app & todos-app.  
 	    Syncing data across pages / JS date () / moment js /  
@@ -128,7 +127,7 @@ timeInfo.textContent = generateLastEdited(matchedNote.updatedAt)
 ----------------------------------------------------------  
 ## 12 Nov 2018 - Day 15
 
-### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+### JavaScript
 
 :small_orange_diamond: continued building notes-app & todos-app.  
 	    improved the features with id(using uuid) / location.assign / complex DOM structure
