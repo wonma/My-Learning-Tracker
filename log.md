@@ -353,14 +353,14 @@ Reviewed and finished exercises of Javascript Basics
 ----------------------------------------------------------
 ## 30 Oct 2018 - Day 3
 
-Finished analyzing the usage of Flexbox in the layout of the sample website.
+:white_check_mark: Finished analyzing the usage of Flexbox in the layout of the sample website.
 - Flexbox has power in aligning items in one line.
 - It's pretty much controlling how to manipulate the available space.
 - Useful for responsive layout. 
 
-Learned basic strategies about SEO(meta description, backlink), Image Optimization.
+:white_check_mark: Learned basic strategies about SEO(meta description, backlink), Image Optimization.
 
-Resumed Andre's Javascript course.
+:white_check_mark: Resumed Andre's Javascript course.
 - Created [robot movement](https://codepen.io/wonma/pen/XxLNxo).
 
 &nbsp;
