@@ -8,7 +8,7 @@
 ----------------------------------------------------------  
 ## 15 Nov 2018 - Day 18
 
-### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+### JavaScript
 
 :small_orange_diamond: Object-oriented programming
 - catching and throwing errors, 'use strict' declaration
