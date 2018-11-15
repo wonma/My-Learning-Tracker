@@ -6,6 +6,52 @@
 
 
 ----------------------------------------------------------  
+## 15 Nov 2018 - Day 18
+
+### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
+
+:small_orange_diamond: Object-oriented programming
+- catching and throwing errors, 'use strict' declaration
+- object-oriented programming
+- constructor function and new instances (instance == unique object)
+- prototype object  
+:bulb:_"The whole point of the constructor function is to set up that unique object and then get access to it.”_
+:bulb:_"Constructor functions allow us to customize the individual instances."_
+
+ 
+### Best Error of Today :sweat_drops:
+
+**'return' WHERE** matters a LOT in functions.  
+Reviewed : function declaration, function expression (in an anonymous function), concept of 'returning' a value  
+
+```JavaScript
+Person.prototype.introduceLikes = function () {
+    let introduceWhole = `Hi, my name is ${this.firstName}`
+    this.likes.forEach((like)=>{
+       return introduceWhole += `I love ${like}.`
+    })
+}
+console.log(me.introduceLikes())
+}
+``` 
+This crashes 'cuz the method _'introduceLikes'_ doesn't return anyting, but resulting in '**undefined**' .
+By mistake, I put 'return' inside of forEach callback function, and that was all.  
+Woops, I'll probably dream of 'return' tonight.
+ 
+### Today's coder shot 
+I was impressed with the concept of object-oriented programming.
+![screen shot 2018-11-15 at 7 44 56 pm](https://user-images.githubusercontent.com/42050917/48547906-04da5980-e90f-11e8-9eab-24a744814c4f.JPG)
+_[the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)_
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;  
+
+
+
+
+----------------------------------------------------------  
 ## 14 Nov 2018 - Day 17
 
 ### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
