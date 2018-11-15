@@ -370,15 +370,15 @@ Reviewed and finished exercises of Javascript Basics
 ----------------------------------------------------------
 ## 29 Oct 18 - Day 2
 
-Reviewed command line basics.
+:small_orange_diamond: Reviewed command line basics.
 - Figured out (AGAIN) the importance of distinguishing between relative paths and absolute paths.
 - Understood what is home directory and root directory in perspective of terminal.
 
-Set up browserSync package from scratch.
+:small_orange_diamond: Set up browserSync package from scratch.
 - Made it possible to watch multiple html docs (with separate tasks).
 - Set up a basic startup working file.
 
-Played with Flexbox.
+:small_orange_diamond: Played with Flexbox.
 - Tried to figure out how flexbox works.
 - Analyzed structure of [the sample website](https://wonma.github.io/trillo/) I built a month ago, focusing primarily on the usage of flexbox. (halfway done.)
 
