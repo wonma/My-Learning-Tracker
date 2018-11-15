@@ -22,8 +22,6 @@
 ### Best Error of Today :sweat_drops:
 
 **'return' WHERE** matters a LOT in functions.  
-Reviewed : function declaration, function expression (in an anonymous function), concept of 'returning' a value  
-
 ```JavaScript
 Person.prototype.introduceLikes = function () {
     let introduceWhole = `Hi, my name is ${this.firstName}`
@@ -34,11 +32,11 @@ Person.prototype.introduceLikes = function () {
 console.log(me.introduceLikes())
 }
 ``` 
-This crashes 'cuz the method _'introduceLikes'_ doesn't return anyting, but resulting in '**undefined**' .
+This crashes 'cuz the method _'introduceLikes'_ doesn't return anyting, but resulting in '**undefined**'.   
 By mistake, I put 'return' inside of forEach callback function, and that was all.  
 Woops, I'll probably dream of 'return' tonight.
  
-### Today's coder shot 
+### Today's coder shot :camera:
 I was impressed with the concept of object-oriented programming.
 ![screen shot 2018-11-15 at 7 44 56 pm](https://user-images.githubusercontent.com/42050917/48547906-04da5980-e90f-11e8-9eab-24a744814c4f.JPG)
 _[the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)_
@@ -74,7 +72,7 @@ This crashes 'cuz it getData doesn't return anyting, but just resulting in '**un
 I should've put 'return' before the ternary operator.  
 Then, it returns a type of array, not undefined.
  
-### Today's coder shot
+### Today's coder shot :camera:  
 
 ![screen shot 2018-11-14 at 9 15 14 pm](https://user-images.githubusercontent.com/42050917/48481898-6dafcc00-e852-11e8-9591-d55a1f7f900f.JPG)
 _Todos-app(left), Notes-app(right)_
@@ -213,7 +211,7 @@ B. Teacher's code (He used the fact that **they both return boolean values** )
   esp, the power of **logical operation in a single filter**, when two kinds of criteria are applied for filtering.  
   
   
-### Today's coder shot
+### Today's coder shot  :camera:
 ![code-recipes](https://user-images.githubusercontent.com/42050917/48263988-51cfb300-e46b-11e8-855f-25e4de3031b3.jpg)
 ![kakaotalk_photo_2018-11-09-14-28-46](https://user-images.githubusercontent.com/42050917/48263990-51cfb300-e46b-11e8-8fae-91533653febf.jpeg)
 
