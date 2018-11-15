@@ -11,9 +11,9 @@
 ### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
 on building notes-app & todos-app  
 
-- Learned : Arrow function - Ternary operator - Truthy/falsy values - Type coercion
+:small_orange_diamond: Arrow function - Ternary operator - Truthy/falsy values - Type coercion
  
-### Best Error of Today
+### Best Error of Today :sweat_drops:
 
 **'return'** matters a LOT in functions.  
 Reviewed : function declaration, function expression (in an anonymous function), concept of 'returning' a value  
@@ -43,11 +43,12 @@ _Todos-app(left), Notes-app(right)_
 
 ### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
 
-- Learned : continued building notes-app & todos-app.  
+
+:small_orange_diamond: continued building notes-app & todos-app.  
 	    Syncing data across pages / JS date () / moment js /  
 	    integrating dates into the app (sort by recency or last edition)
  
-### My Code vs. Better Code
+### My Code :ok_hand: vs. Better Code :thumbsup:
 
 A1. My code  
 (I could've accessed the individual note's timestamp in note-edit.js .)
@@ -80,10 +81,10 @@ timeInfo.textContent = generateLastEdited(matchedNote.updatedAt)
 
 ### JavaScript - with [the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
 
-- Learned : continued building notes-app & todos-app.  
+:small_orange_diamond: continued building notes-app & todos-app.  
 	    improved the features with id(using uuid) / location.assign / complex DOM structure
  
-### My Code vs. Better Code
+### My Code :ok_hand: vs. Better Code :thumbsup:
 
 A. My code (I used findIndex)
 ```JavaScript
@@ -134,9 +135,9 @@ B. Teacher's code (He used the fact that **they both return boolean values** )
 
 ### JavaScript - with [freeCodeCamp](https://learn.freecodecamp.org/)
 
-- Learned : Basics of JS - comparison - loop - accessing properties of object - array - random number
+:small_orange_diamond: Basics of JS - comparison - loop - accessing properties of object - array - random number
  
-- Started : to keep track of what I want to recall, I started to make 'self-quiz' notes following FCC.
+:new:  Started to keep track of what I want to recall, I started to make 'self-quiz' notes following FCC.
 ![screen shot 2018-11-13 at 12 44 31 pm](https://user-images.githubusercontent.com/42050917/48389677-fbe85d00-e741-11e8-83bc-4ae44ba2f0d6.JPG)
   
 
@@ -149,8 +150,7 @@ B. Teacher's code (He used the fact that **they both return boolean values** )
 
 ### JavaScript - Coded 'To-do app' along with Udemy JS course
 
-- Learned : 
-  localStorage methods (CRUD) and how to fetch the data into my JS code.  
+:small_orange_diamond: localStorage methods (CRUD) and how to fetch the data into my JS code.  
   .setItem(), .getItem(), removeItem(), JSON.stringify(), JSON.parse()
     
 
@@ -163,8 +163,7 @@ B. Teacher's code (He used the fact that **they both return boolean values** )
 
 ### JavaScript - Analyzed 'To-do app' logic. My solution vs. Teacher's solution
 
-- Learned : 
-  How to combine two similar functions into one, making code clean.  
+:small_orange_diamond: How to combine two similar functions into one, making code clean.  
   esp, the power of **logical operation in a single filter**, when two kinds of criteria are applied for filtering.  
   
   
@@ -182,11 +181,9 @@ B. Teacher's code (He used the fact that **they both return boolean values** )
 
 ### JavaScript - Coded 'To-do app' along with Udemy JS course
 
-- Learned : 
-  How to code to-do logic (live-search, adding new items, starting off in clean slate)  
+:small_orange_diamond: How to code to-do logic (live-search, adding new items, starting off in clean slate)  
   
-- Started :
-  Asking questions in the course Q&A section and trying to think about others' questions, finding answers together (for the contents of the lectures I've already passed. Good job, Wonmi! 
+:new: Started asking questions in the course Q&A section and trying to think about others' questions, finding answers together (for the contents of the lectures I've already passed. Good job, Wonmi! 
 
 ### Solved Challenge 01
 **Mission** : Deleting filtered items(elements that have the same value).  
@@ -240,15 +237,15 @@ console.log(sortTodos(todos))
 ----------------------------------------------------------  
 ## 6 Nov 2018 - Day 10
 
-JavaScript - Coded 'Expense Tracker' along with Udemy JS course
+:small_orange_diamond: JavaScript - Coded 'Expense Tracker' along with Udemy JS course
 
 :new: Started [freeCodeCamp JavaScript course](https://learn.freecodecamp.org/)! 
 Such a nice learning resource!
 
-- Learned : use case of querySelector, addEventListener, good use of 'target'
+- querySelector, addEventListener, good use of 'target'
 - Self-Challage 02 : how to sort the array in an alphabetical order, which has been sorted by boolean. :round_pushpin:[solved](#Solved-Challenge-02).
 
-### Best error of today 
+### Best error of today :sweat_drops:
 ```JavaScript
 const body = document.querySelector('body')
 const button = document.querySelector('button')
@@ -264,9 +261,9 @@ button.addEventListener('click', function (e) {
 ----------------------------------------------------------
 ## 5 Nov 2018 - Day 9
 
-JavaScript - messed around with methods, did related exercies
+:small_orange_diamond: JavaScript - messed around with array methods, did related exercies
 
-- Learned : Array seaching - indexOf(), .find(), .findIndex(), .filter()
+- Array seaching - indexOf(), .find(), .findIndex(), .filter()
 - Self-Challage 01 unsolved : deleting filtered items from array :round_pushpin:[solved](#Solved-Challenge-01).
 
 &nbsp;
@@ -276,13 +273,13 @@ JavaScript - messed around with methods, did related exercies
 ----------------------------------------------------------
 ## 4 Nov 2018 - Day 8
 
-JavaScript - 
+:small_orange_diamond: JavaScript   
 
-- Learned : Object reference, string/number methods, 
-			array methods to manipulate items
-		    restaurant seat checker, number guessing game
+- new : Object reference, string/number methods, 
+	array methods to manipulate items
+	restaurant seat checker, number guessing game
 
-- I really like this JS logic world. :D
+:speech_balloon: I really like this JS logic world. :D
 
 &nbsp;
 &nbsp;
@@ -291,12 +288,12 @@ JavaScript -
 ----------------------------------------------------------
 ## 3 Nov 2018 - Day 7
 
-JavaScript - 
+:small_orange_diamond: JavaScript
 
-- Learned : object, object as an argument of function, 
-			function returning an object,
+- new : object, object as an argument of function,  
+	function returning an object,
 
-- It's ok not to understand it at once. It's ok. Keep calm and just try it again.
+:speech_balloon: It's ok not to understand it at once. It's ok. Keep calm and just try it again.
 
 &nbsp;
 &nbsp;
@@ -305,7 +302,7 @@ JavaScript -
 ----------------------------------------------------------
 ## 2 Nov 2018 - Day 6
 
-JavaScript - variable scope, return, object in function, access to property
+:small_orange_diamond: JavaScript - variable scope, return, object in function, access to property
 
 - Built [To-do list](https://codepen.io/wonma/pen/jegdPW)(2nd) with cleaner code.
 
@@ -320,7 +317,7 @@ JavaScript - variable scope, return, object in function, access to property
 ----------------------------------------------------------
 ## 1 Nov 2018 - Day 5
 
-JavaScript DOM manipulation - selectors / events / callback functions
+:small_orange_diamond: JavaScript DOM manipulation - selectors / events / callback functions
 
 - Rebuilt mini facebook again. (Rebuilding till I feel comfortable!)
 
@@ -335,7 +332,7 @@ JavaScript DOM manipulation - selectors / events / callback functions
 ----------------------------------------------------------
 ## 31 Oct 2018 - Day 4
 
-Reviewed and finished exercises of Javascript Basics
+:small_orange_diamond: Reviewed and finished exercises of Javascript Basics
 
 - Learned [falsy values](https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a)
 
@@ -353,14 +350,14 @@ Reviewed and finished exercises of Javascript Basics
 ----------------------------------------------------------
 ## 30 Oct 2018 - Day 3
 
-:white_check_mark: Finished analyzing the usage of Flexbox in the layout of the sample website.
+:small_orange_diamond: Finished analyzing the usage of Flexbox in the layout of the sample website.
 - Flexbox has power in aligning items in one line.
 - It's pretty much controlling how to manipulate the available space.
 - Useful for responsive layout. 
 
-:white_check_mark: Learned basic strategies about SEO(meta description, backlink), Image Optimization.
+:small_orange_diamond: Learned basic strategies about SEO(meta description, backlink), Image Optimization.
 
-:white_check_mark: Resumed Andre's Javascript course.
+:small_orange_diamond: Resumed Andre's Javascript course.
 - Created [robot movement](https://codepen.io/wonma/pen/XxLNxo).
 
 &nbsp;
