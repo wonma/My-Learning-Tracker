@@ -18,7 +18,8 @@
 :bulb:_"The whole point of the constructor function is to set up that unique object and then get access to it.”_
 :bulb:_"Constructor functions allow us to customize the individual instances."_
 
- 
+&nbsp;  
+
 ### Best Error of Today :sweat_drops:
 
 **'return' WHERE** matters a LOT in functions.  
@@ -36,10 +37,12 @@ This crashes 'cuz the method _'introduceLikes'_ doesn't return anyting, but resu
 By mistake, I put 'return' inside of forEach callback function, and that was all.  
 Woops, I'll probably dream of 'return' tonight.
  
+&nbsp;  
+
 ### Today's coder shot :camera:
 I was impressed with the concept of object-oriented programming.
 ![screen shot 2018-11-15 at 7 44 56 pm](https://user-images.githubusercontent.com/42050917/48547906-04da5980-e90f-11e8-9eab-24a744814c4f.JPG)
-_[the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)_
+_by Teacher Andrew Mead, Udemy[the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)_
 
 &nbsp;
 &nbsp;
@@ -56,7 +59,9 @@ _[the Modern JavaScript Bootcamp 2018](https://www.udemy.com/modern-javascript/)
 on building notes-app & todos-app  
 
 :small_orange_diamond: Arrow function - Ternary operator - Truthy/falsy values - Type coercion
- 
+
+&nbsp;  
+
 ### Best Error of Today :sweat_drops:
 
 **'return'** matters a LOT in functions.  
