@@ -60,7 +60,7 @@ console.log(eagle.getWeight())
 - Prototype is considered with constructors (type blueprints).  
 - A constructor can inherit prototype from higher level of constructor.  
 - Objects refer to methods in its parent's prototype.  
-- Cloning(copying) and referencing are totally different.  
+- Cloning(copying) and just having access are totally different.  
 - Inheritance happens when there is cloning!
 
 &nbsp;  
@@ -78,13 +78,14 @@ Dog.prototype = Object.create(Animal.prototype)
 Dog.prototype.bark = function () {
     console.log('Woof!');
 }
+// should've reset constructor property of Dog.prototype
 
 let beagle = new Dog();
 
 beagle.eat(); // Should print "nom nom nom"
 beagle.bark(); // Should print "Woof!"
 ``` 
-Dog.prototype inherited Animal.prototype.constructor too. I had to **reset constructor property**!  
+Dog.prototype inherited Animal.prototype.constructor too. I should have **reset constructor property**!  
 Add : _Dog.prototype.constructor = Dog_  
 &nbsp;
 &nbsp;
