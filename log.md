@@ -52,9 +52,6 @@ console.log(eagle.getWeight())
 &nbsp;  
 
 ----------------------------------------------------------  
-
-
-----------------------------------------------------------  
 ## 19 Nov 2018 - Day 20
 
 ### Object-oriented programming in FCC
@@ -87,8 +84,8 @@ let beagle = new Dog();
 beagle.eat(); // Should print "nom nom nom"
 beagle.bark(); // Should print "Woof!"
 ``` 
-Dog.prototype inherited Animal.prototype.constructor too. I had to **reset constructor property**!
-Add : __Dog.prototype.constructor = Dog__
+Dog.prototype inherited Animal.prototype.constructor too. I had to **reset constructor property**!  
+Add : _Dog.prototype.constructor = Dog_  
 &nbsp;
 &nbsp;
 &nbsp;
@@ -112,12 +109,12 @@ Add : __Dog.prototype.constructor = Dog__
 :small_orange_diamond: Hangman logic basic setup
 - figured out errors in my logic for hangman
 - failed to understand new concepts 'primitive and prototypical inheritance'  
-  so couldn't move forward. Decided to hit object-oriented programming part in (FFC) [https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming] first.  
+  so couldn't move forward. Decided to hit object-oriented programming part in [FFC](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming) first.  
 
 - reviewed file/folder architecture and dev setting(gulp, npm)
 - what to use? SASS vs. postCSS (I think I'll use postCSS)
 - found out difference between browsersync and live-server  
-- (good article about gulp for beginners)[https://coder-coder.com/gulp-tutorial-beginners/]
+- [good article about gulp for beginners](https://coder-coder.com/gulp-tutorial-beginners/)
 
 &nbsp;  
 
@@ -142,8 +139,8 @@ console.log(firstQuiz.getPuzzle())
 console.log(secondQuiz.getPuzzle())
 ``` 
 1st error:  
-I didn't consider blank in the word.
-2nd error:  
+I didn't consider blank in the word.   
+2nd error:    
 I didn't make concatination logic for each letter. The code above just results in undefined. 
   
 **Answer**
