@@ -49,7 +49,7 @@ console.log(eagle.getWeight())
 &nbsp;  
 ### My Code :ok_hand: vs. Better Code :thumbsup:
 
-A1. My code (I used findIndex)
+A1. My code (I set up a callback function)
 ```JavaScript
 Hangman.prototype.getLetter = function (letterInput) {
     if (!this.guessedLetters.includes(letterInput)) {
@@ -66,9 +66,9 @@ Hangman.prototype.decrementNum = function (letterInput) {  // separate decrement
     }
 }
 ```  
-See how simple my teacher made the conditional statement.  
+Let's keep in mind that a conditional expression can be assigned to a variable.  
   
-A2. Teacher's code (He used 'find' method)
+A2. Teacher's code (He made two if-statements)
 ```JavaScript
 Hangman.prototype.getLetter = function (letterInput) {
     letterInput = letterInput.toLowerCase()	// chnage input to lowercase
@@ -88,6 +88,63 @@ Hangman.prototype.getLetter = function (letterInput) {
 }
 ```
 
+&nbsp;  
+
+B1. My code (I set up a callback function)
+```JavaScript
+Hangman.prototype.checkStatus = function (){
+    const remainingGuesses = this.guessNum > -1
+    const allMatched = this.getPuzzle() === this.word.join()
+
+    if(remainingGuesses && allMatched) {
+        this.status = 'success'
+    } else if(remainingGuesses && !allMatched) { // 숫자 0이하되고 매치안되었을경우
+        this.status = 'playing'
+    } else {  
+        this.status = 'fail'  // 숫자안남을 경우들
+    }
+
+    console.log(this.status)
+}
+
+```  
+Let's keep in mind that a conditional expression can be assigned to a variable.  
+  
+B2. Teacher's code (3 solutions : forEach / filter / every)
+```JavaScript
+Hangman.prototype.calculateStatus = function () {
+    // using forEach
+    let finished = true
+    this.word.forEach((letter)=>{
+    	if(this.guessedLetter.includes(letter)) {
+	} else {finished = false}
+    })
+
+    // below stays the same.
+    if (this.remainingGuesses === 0) {
+        this.status = 'failed'
+    } else if (finished) {
+        this.status = 'finished'
+    } else {
+        this.status = 'playing'
+    }
+}
+```   
+```JavaScript
+Hangman.prototype.calculateStatus = function () {
+    // using filter
+    const lettersUnguessed = this.word.filter((letter) => {
+    	return !this.guessedLetters.includes(letter)
+    })
+    const finished = lettersUnguessed === 0
+}
+```  
+```JavaScript
+Hangman.prototype.calculateStatus = function () {
+    // using every
+    const finished = this.word.every((letter) => this.guessedLetters.includes(letter))
+}
+```  
 &nbsp;
 &nbsp;
 &nbsp;  
