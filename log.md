@@ -49,7 +49,7 @@ console.log(eagle.getWeight())
 &nbsp;  
 ### My Code :ok_hand: vs. Better Code :thumbsup:
 
-A1. My code (I set up a callback function)
+**A1. My code** (I set up a callback function)
 ```JavaScript
 Hangman.prototype.getLetter = function (letterInput) {
     if (!this.guessedLetters.includes(letterInput)) {
@@ -68,7 +68,7 @@ Hangman.prototype.decrementNum = function (letterInput) {  // separate decrement
 ```  
 Let's keep in mind that a conditional expression can be assigned to a variable.  
   
-A2. Teacher's code (He made two if-statements)
+**A2. Teacher's code** (He made two if-statements)
 ```JavaScript
 Hangman.prototype.getLetter = function (letterInput) {
     letterInput = letterInput.toLowerCase()	// chnage input to lowercase
@@ -90,7 +90,7 @@ Hangman.prototype.getLetter = function (letterInput) {
 
 &nbsp;  
 
-B1. My code (I set up two criteria, didn't use an array method.)
+**B1. My code **(I set up two criteria, didn't use an array method.)
 ```JavaScript
 Hangman.prototype.checkStatus = function (){
     const remainingGuesses = this.guessNum > 0
@@ -109,7 +109,7 @@ Hangman.prototype.checkStatus = function (){
 I could use different kinds of array methods!  
 Using an 'every' method was the most concise solution.
 
-B2. Teacher's code (3 solutions : forEach / filter / every)
+**B2. Teacher's code** (3 solutions : forEach / filter / every)
 ```JavaScript
 Hangman.prototype.calculateStatus = function () {
     // using forEach
@@ -142,6 +142,41 @@ Hangman.prototype.calculateStatus = function () {
 Hangman.prototype.calculateStatus = function () {
     // using every
     const finished = this.word.every((letter) => this.guessedLetters.includes(letter)) // all array items have to be true for the method to return 'true' at the end.
+}
+```  
+&nbsp;  
+
+**C1. My code** (I set up a callback function)
+```JavaScript
+Hangman.prototype.showMessage = function () {
+    if (this.status === 'playing') {
+        guessNumEl.textContent = `Guesses left : ${firstQuiz.guessNum}`
+    } else if (this.status === 'success') {
+        guessNumEl.textContent = 'Greate work! You guessed the word.'
+    } else {
+        guessNumEl.textContent = `Nice try! The word was ${this.word.join('')}`
+    }
+}
+```  
+I have a tendency of not using return in a function/method. Let's change this logic habit!
+  
+**C2. Teacher's code** (He used the advantage of returning value from a method)
+```JavaScript
+// hangman.js
+Hangman.prototype.showMessage = function () {
+    if (this.status === 'playing') {
+        return `Guesses left : ${firstQuiz.guessNum}`
+    } else if (this.status === 'success') {
+        return 'Greate work! You guessed the word.'
+    } else {
+        return `Nice try! The word was ${this.word.join('')}`
+    }
+}
+
+// app.js
+const showResult = function (firstQuiz) {
+    puzzleEl.textContent = firstQuiz.getPuzzle()
+    guessNumEl.textContent = firstQuiz.showMessage()  // returned value goes here.
 }
 ```  
 &nbsp;
