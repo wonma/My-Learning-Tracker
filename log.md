@@ -8,11 +8,18 @@
 ----------------------------------------------------------  
 ## 20 Nov 2018 - Day 21
 
-### Object-oriented programming in FCC
+### Object-oriented programming in FCC + set uphangman logic
 
-:small_orange_diamond: oop completed in FCC
-- closure, 
-- Immediately Invoked Function Expression (IIFE)
+:small_orange_diamond: Finished object-oriented programming section in FCC  
+- Finished setting up basic 'Hangman game' logic
+- Used a set of prototype methods for the instance of Hangman
+- need to rebuild this over and over till the process feels comfortable! Practice makes perfect!
+
+&nbsp;  
+
+### Today's coder shot :camera:
+Proud that I made it though with my own logic though it's not the most concise solution!
+![hangmanbasic](https://user-images.githubusercontent.com/42050917/48778131-c3cfb400-ed17-11e8-82f9-755f09c86631.gif)
 
 &nbsp;  
 
