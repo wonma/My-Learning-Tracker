@@ -6,6 +6,171 @@
 
 
 ----------------------------------------------------------  
+## 20 Nov 2018 - Day 21
+
+### Object-oriented programming in FCC
+
+:small_orange_diamond: oop completed in FCC
+- closure, 
+- Immediately Invoked Function Expression (IIFE)
+
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**Closure** doesn't mean it shouldn't take 'this' keyword for the name of method!
+
+```JavaScript
+function Bird() {
+  let weight = 15;
+  function getWeight() {
+    return weight;
+  }
+}
+
+const eagle = new Bird()
+
+console.log(eagle.getWeight())
+``` 
+Should've been like below.
+```JavaScript
+function Bird() {
+  let weight = 15;
+  this.getWeight = function() {
+    return weight;	// publicly available method that a bird object can use
+  }
+}
+
+const eagle = new Bird()
+
+console.log(eagle.getWeight())
+``` 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
+
+
+----------------------------------------------------------  
+## 19 Nov 2018 - Day 20
+
+### Object-oriented programming in FCC
+
+:small_orange_diamond: Understood what prototype is!
+- Prototype is considered with constructors (type blueprints).  
+- A constructor can inherit prototype from higher level of constructor.  
+- Objects refer to methods in its parent's prototype.  
+- Cloning(copying) and referencing are totally different.  
+- Inheritance happens when there is cloning!
+
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**'return' WHERE** matters a LOT in functions.  
+```JavaScript
+function Animal() { }
+Animal.prototype.eat = function() { console.log("nom nom nom"); };
+
+function Dog() { }
+
+Dog.prototype = Object.create(Animal.prototype)
+Dog.prototype.bark = function () {
+    console.log('Woof!');
+}
+
+let beagle = new Dog();
+
+beagle.eat(); // Should print "nom nom nom"
+beagle.bark(); // Should print "Woof!"
+``` 
+Dog.prototype inherited Animal.prototype.constructor too. I had to **reset constructor property**!
+Add : __Dog.prototype.constructor = Dog__
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
+
+## 17, 18 Nov 2018 
+- Couldn't do much for personal affairs.
+- Looked through FCC, JS object-oriented programming section.
+&nbsp;
+&nbsp;
+&nbsp;  
+
+
+----------------------------------------------------------  
+## 16 Nov 2018 - Day 19
+
+### JavaScript + HTML/CSS review
+
+:small_orange_diamond: Hangman logic basic setup
+- figured out errors in my logic for hangman
+- failed to understand new concepts 'primitive and prototypical inheritance'  
+  so couldn't move forward. Decided to hit object-oriented programming part in (FFC) [https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming] first.  
+
+- reviewed file/folder architecture and dev setting(gulp, npm)
+- what to use? SASS vs. postCSS (I think I'll use postCSS)
+- found out difference between browsersync and live-server  
+- (good article about gulp for beginners)[https://coder-coder.com/gulp-tutorial-beginners/]
+
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**concatination** matters a LOT in functions.  
+```JavaScript
+Hangman.prototype.getPuzzle = function () {
+    const output = this.word.forEach((letter) => {
+        if (this.guessedLetters.includes(letter)) {
+            return letter
+        } else {
+            return '*'}
+        })
+    return output
+}
+
+const firstQuiz = new Hangman('cat', 3)
+const secondQuiz = new Hangman('cocacola', 3)
+
+console.log(firstQuiz.getPuzzle())
+console.log(secondQuiz.getPuzzle())
+``` 
+1st error:  
+I didn't consider blank in the word.
+2nd error:  
+I didn't make concatination logic for each letter. The code above just results in undefined. 
+  
+**Answer**
+```JavaScript
+Hangman.prototype.getPuzzle = function () {
+    // this.guessedLetters.push(guessedLetter)
+    let output = ''
+
+    this.word.forEach((letter) => {
+        if (this.guessedLetters.includes(letter)|| letter === ' ') {
+            return output = output + letter   
+        } else {
+            return output = output + '*'
+        }
+    })
+    
+    return output
+}
+``` 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;  
+
+
+----------------------------------------------------------  
 ## 15 Nov 2018 - Day 18
 
 ### JavaScript
