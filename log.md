@@ -19,7 +19,7 @@
 
 ### Today's coder shot :camera:
 Proud that I made it though with my own logic though it's not the most concise solution!
-![hangmanbasic](https://user-images.githubusercontent.com/42050917/48778131-c3cfb400-ed17-11e8-82f9-755f09c86631.gif)
+![hangman1](https://user-images.githubusercontent.com/42050917/48778727-502ea680-ed19-11e8-832a-2a87389492d5.gif)
 
 &nbsp;  
 
