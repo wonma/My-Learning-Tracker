@@ -44,9 +44,50 @@ function Bird() {
 const eagle = new Bird()
 
 console.log(eagle.getWeight())
-``` 
+```  
 
-&nbsp;
+&nbsp;  
+### My Code :ok_hand: vs. Better Code :thumbsup:
+
+A1. My code (I used findIndex)
+```JavaScript
+Hangman.prototype.getLetter = function (letterInput) {
+    if (!this.guessedLetters.includes(letterInput)) {
+        this.guessedLetters.push(letterInput)
+        this.decrementNum(letterInput)       // call decrementNum function
+    } else {
+        alert('You already typed ' + letterInput)
+    }
+}
+
+Hangman.prototype.decrementNum = function (letterInput) {  // separate decrementNum function
+    if(!this.word.includes(letterInput)) {
+        this.guessNum -= 1
+    }
+}
+```  
+See how simple my teacher made the conditional statement.  
+  
+A2. Teacher's code (He used 'find' method)
+```JavaScript
+Hangman.prototype.getLetter = function (letterInput) {
+    letterInput = letterInput.toLowerCase()	// chnage input to lowercase
+
+    const isNewLetter = !this.guessedLetters.includes(letterInput)
+    const isNoMatch = !this.word.includes(letterInput)
+
+    if (isNewLetter) {
+        this.guessedLetters.push(letterInput)
+    } else {
+        alert('You already typed ' + letterInput)
+    }
+
+    if (isNewLetter && isNoMatch) {	// test two criteria at once
+        this.guessNum--
+    }
+}
+```
+
 &nbsp;
 &nbsp;
 &nbsp;  
