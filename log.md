@@ -90,7 +90,7 @@ Hangman.prototype.getLetter = function (letterInput) {
 
 &nbsp;  
 
-**B1. My code **(I set up two criteria, didn't use an array method.)
+**B1. My code** (I set up two criteria, didn't use an array method.)
 ```JavaScript
 Hangman.prototype.checkStatus = function (){
     const remainingGuesses = this.guessNum > 0
@@ -146,8 +146,9 @@ Hangman.prototype.calculateStatus = function () {
 ```  
 &nbsp;  
 
-**C1. My code** (I set up a callback function)
+**C1. My code** (I assigned a value at each block.)
 ```JavaScript
+// hangman.js
 Hangman.prototype.showMessage = function () {
     if (this.status === 'playing') {
         guessNumEl.textContent = `Guesses left : ${firstQuiz.guessNum}`
@@ -157,8 +158,14 @@ Hangman.prototype.showMessage = function () {
         guessNumEl.textContent = `Nice try! The word was ${this.word.join('')}`
     }
 }
+
+// app.js
+const showResult = function (firstQuiz) {
+    puzzleEl.textContent = firstQuiz.getPuzzle()
+    firstQuiz.showMessage()
+}
 ```  
-I have a tendency of not using return in a function/method. Let's change this logic habit!
+I have a tendency of not using _return_ in a function/method. Let's change this logic habit!
   
 **C2. Teacher's code** (He used the advantage of returning value from a method)
 ```JavaScript
