@@ -90,26 +90,25 @@ Hangman.prototype.getLetter = function (letterInput) {
 
 &nbsp;  
 
-B1. My code (I set up a callback function)
+B1. My code (I set up two criteria, didn't use an array method.)
 ```JavaScript
 Hangman.prototype.checkStatus = function (){
-    const remainingGuesses = this.guessNum > -1
+    const remainingGuesses = this.guessNum > 0
     const allMatched = this.getPuzzle() === this.word.join()
 
     if(remainingGuesses && allMatched) {
         this.status = 'success'
-    } else if(remainingGuesses && !allMatched) { // 숫자 0이하되고 매치안되었을경우
+    } else if(remainingGuesses && !allMatched) { 
         this.status = 'playing'
     } else {  
-        this.status = 'fail'  // 숫자안남을 경우들
+        this.status = 'fail' 
     }
-
-    console.log(this.status)
 }
 
 ```  
-Let's keep in mind that a conditional expression can be assigned to a variable.  
-  
+I could use different kinds of array methods!  
+Using an 'every' method was the most concise solution.
+
 B2. Teacher's code (3 solutions : forEach / filter / every)
 ```JavaScript
 Hangman.prototype.calculateStatus = function () {
@@ -117,7 +116,7 @@ Hangman.prototype.calculateStatus = function () {
     let finished = true
     this.word.forEach((letter)=>{
     	if(this.guessedLetter.includes(letter)) {
-	} else {finished = false}
+	} else {finished = false}  //if just a single letter doesn't have a match, this results in 'finished = false'
     })
 
     // below stays the same.
@@ -136,13 +135,13 @@ Hangman.prototype.calculateStatus = function () {
     const lettersUnguessed = this.word.filter((letter) => {
     	return !this.guessedLetters.includes(letter)
     })
-    const finished = lettersUnguessed === 0
+    const finished = lettersUnguessed === 0  // it results in 'finished =  true' when there's no unguessed letters.
 }
 ```  
 ```JavaScript
 Hangman.prototype.calculateStatus = function () {
     // using every
-    const finished = this.word.every((letter) => this.guessedLetters.includes(letter))
+    const finished = this.word.every((letter) => this.guessedLetters.includes(letter)) // all array items have to be true for the method to return 'true' at the end.
 }
 ```  
 &nbsp;
