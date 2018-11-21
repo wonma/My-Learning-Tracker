@@ -8,15 +8,14 @@
 ## 21 Nov 2018 - Day 22
 
 ### Basic Javascript section in fCC  
-from _'Find the Length of a String'_ to _'Iterate Through an Array with a For Loop'_
-
+from _'Find the Length of a String'_ to _'Iterate Through an Array with a For Loop'_  
+:speech_balloon: I felt it is so important to get comfortable with creating common basic logic.  
+  
 :small_orange_diamond: upgraded my understanding of ...
 - 'return' in functions  
 _[Functions that return a function(stackoverflow)](https://stackoverflow.com/questions/7629891/functions-that-return-a-function)_
 - array manipulation
 - accessing object properties with bracket notation  
-:speech_balloon: I felt it is so important to get comfortable with creating common basic logic.  
-
 
 &nbsp;  
 
