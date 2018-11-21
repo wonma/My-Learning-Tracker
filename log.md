@@ -53,7 +53,7 @@ _The function above is to make a queue. In Computer Science a queue is an abstra
 ----------------------------------------------------------  
 ## 20 Nov 2018 - Day 21
 
-### Object-oriented programming in FCC + set uphangman logic
+### Object-oriented programming in FCC + set up hangman logic
 
 :small_orange_diamond: Finished object-oriented programming section in FCC  
 - Finished setting up basic 'Hangman game' logic
