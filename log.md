@@ -32,7 +32,7 @@ function nextInLine(arr, item) {
   return arr.shift();     // error still says arr.shift() is not a function
   
   // last (succeeded)
-  arr.push(item);     // The problem was in this line. '.push(..)' doesn't return anything!!!!
+  arr.push(item);     // The problem was in using push method. '.push(..)' doesn't return anything!!!!
   return arr.shift();
 }
 
