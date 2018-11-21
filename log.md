@@ -8,7 +8,7 @@
 ## 21 Nov 2018 - Day 22
 
 ### Basic Javascript section in fCC  
-from _'Find the Length of a String'_ to _'Iterate Through an Array with a For Loop'_  
+80% done.    
 :speech_balloon: I felt it is so important to get comfortable with creating common basic logic.  
   
 :small_orange_diamond: upgraded my understanding of ...
