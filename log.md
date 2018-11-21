@@ -23,15 +23,15 @@ Omg.. I thought I know what 'return' is but wow..
 ```JavaScript
 // Let's make a queue!
 function nextInLine(arr, item) {
-  // 1st try
+  // 1st (failed)
   var newArr = arr.push(item);
   return newArr.shift();     // error says newArr.shift() is not a function
   
-  // 2nd try
+  // 2nd (failed)
   arr = arr.push(item);
   return arr.shift();     // error still says arr.shift() is not a function
   
-  // last try
+  // last (succeeded)
   arr.push(item);     // The problem was in this line. '.push(..)' doesn't return anything!!!!
   return arr.shift();
 }
