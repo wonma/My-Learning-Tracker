@@ -45,6 +45,12 @@ var testArr = [1,2,3,4,5];
 console.log(nextInLine(testArr, 8));
 ``` 
 _The function above is to make a queue. In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue._
+&nbsp;   
+
+### Today's coder shot :camera:
+I was proud that I could figure it out by myself, applying some tip I learned from Andrew Mead.
+![screen shot 2018-11-21 at 11 39 06 pm](https://user-images.githubusercontent.com/42050917/48848211-b9302000-ede6-11e8-9eba-1ff89a29ab3b.JPG)
+_'Record Collection' challenge in FCC_
 
 &nbsp;
 &nbsp;
