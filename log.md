@@ -21,29 +21,26 @@ Omg.. I thought I know what 'return' is but wow..
 **Remember if the method(function) you are using returns anything or not!!!! **. 
   
 ```JavaScript
-// My 1st Try
+// Let's make a queue!
 function nextInLine(arr, item) {
+  // 1st try
   var newArr = arr.push(item);
-  return newArr.shift();  
-}
-
-// My 2nd Try
-function nextInLine(arr, item) {
+  return newArr.shift();     // error says newArr.shift() is not a function
+  
+  // 2nd try
   arr = arr.push(item);
-  return arr.shift();  
-}
-
-// Now I got it!
-function nextInLine(arr, item) {
+  return arr.shift();     // error still says newArr.shift() is not a function
+  
+  // last try
   arr.push(item);
-  return arr.shift();  
+  return arr.shift();
 }
 
 // Test
 var testArr = [1,2,3,4,5];
 console.log(nextInLine(testArr, 8));
 ``` 
-_In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue._
+_The function above is to make a queue. In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue._
 
 &nbsp;
 &nbsp;
