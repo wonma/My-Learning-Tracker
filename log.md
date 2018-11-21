@@ -29,10 +29,10 @@ function nextInLine(arr, item) {
   
   // 2nd try
   arr = arr.push(item);
-  return arr.shift();     // error still says newArr.shift() is not a function
+  return arr.shift();     // error still says arr.shift() is not a function
   
   // last try
-  arr.push(item);
+  arr.push(item);     // The problem was in this line. '.push(..)' doesn't return anything!!!!
   return arr.shift();
 }
 
