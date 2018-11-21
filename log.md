@@ -4,6 +4,50 @@
 |:---:|:---------------------------------------|
 |Content|Learnt, thoughts, progress, ideas, links|
 
+----------------------------------------------------------  
+## 21 Nov 2018 - Day 22
+
+### Big title
+
+:small_orange_diamond: sub title
+- descrtiptino
+
+
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+Omg.. I thought I know what 'return' is but wow..  
+**Remember if the method(function) you are using returns anything or not!!!! **. 
+  
+```JavaScript
+// My 1st Try
+function nextInLine(arr, item) {
+  var newArr = arr.push(item);
+  return newArr.shift();  
+}
+
+// My 2nd Try
+function nextInLine(arr, item) {
+  arr = arr.push(item);
+  return arr.shift();  
+}
+
+// Now I got it!
+function nextInLine(arr, item) {
+  arr.push(item);
+  return arr.shift();  
+}
+
+// Test
+var testArr = [1,2,3,4,5];
+console.log(nextInLine(testArr, 8));
+``` 
+_In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue._
+
+&nbsp;
+&nbsp;
+&nbsp;  
 
 ----------------------------------------------------------  
 ## 20 Nov 2018 - Day 21
@@ -213,7 +257,7 @@ const showResult = function (firstQuiz) {
 
 ### Best Error of Today :sweat_drops:
 
-**'return' WHERE** matters a LOT in functions.  
+I shouldn't forget **to reset counstructor property** .
 ```JavaScript
 function Animal() { }
 Animal.prototype.eat = function() { console.log("nom nom nom"); };
