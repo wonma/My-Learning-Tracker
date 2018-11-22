@@ -63,7 +63,7 @@ _Check out why in the shot below!_
 &nbsp;   
 
 ### Today's coder shot :camera:
-This was why the find method didn't work. The data(array) wasn't even parsed yet!
+I was accessing the data in app.js even before the data(array) wasn't even parsed in 'all' yet..
 ![screen shot 2018-11-22 at 9 41 19 pm](https://user-images.githubusercontent.com/42050917/48903623-65cdd880-ee9f-11e8-82af-98bfaca632f8.JPG)
 
 _Exploring HTTP request in Udemy_
