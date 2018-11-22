@@ -5,6 +5,74 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 22 Nov 2018 - Day 23
+
+### JavaScript Bootcamp in Udemy
+:speech_balloon: Getting data from third-party servers is so interesting!  
+
+:small_orange_diamond: upgraded hangman logic/code with...  
+- 'Class' syntax
+- messed around with subclasses
+- HTTP request, JSON data 
+
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+The order of when requests are done matters.
+**You might have been trying to access data when it's still in loading.**. 
+  
+```JavaScript
+// Let's find the name of country of code 'KR'
+const request2 = new XMLHttpRequest()
+
+let countries = []
+
+request2.addEventListener('readystatechange', (e) => {
+    if (e.target.readyState === 4 && e.target.status === 200) {
+        countries = JSON.parse(e.target.responseText)       
+    } else if (e.target.readyState === 4) {
+        console.log('Error has been detected.')
+    }
+})
+
+request2.open("GET", "https://restcountries.eu/rest/v2/all")
+request2.send()
+
+const country = countries.find((element) => element.alpha2Code === "KR")  // Even before JSON data get assigned to 'countries'
+console.log(country.name) // can't access name property of 'undefined'
+```  
+right code below  
+```JavaScript
+const request2 = new XMLHttpRequest()
+
+request2.addEventListener('readystatechange', (e) => {
+    if (e.target.readyState === 4 && e.target.status === 200) {
+        const countries = JSON.parse(e.target.responseText)  
+        const country = countries.find((element) => element.alpha2Code === "KR") // The code got moved to here.
+        console.log(country.name)
+    } else if (e.target.readyState === 4) {
+        console.log('Error has been detected.')
+    }
+})
+
+request2.open("GET", "https://restcountries.eu/rest/v2/all")
+request2.send()
+```
+_Check out why in the shot below!_
+&nbsp;   
+
+### Today's coder shot :camera:
+I was proud that I could figure it out by myself, applying some tip I learned from Andrew Mead.
+![screen shot 2018-11-22 at 9 18 34 pm](https://user-images.githubusercontent.com/42050917/48903182-29e64380-ee9e-11e8-8cd7-34dee395050d.JPG)
+_Exploring HTTP request in Udemy_
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+
+----------------------------------------------------------  
 ## 21 Nov 2018 - Day 22
 
 ### Basic Javascript section in fCC  
