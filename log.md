@@ -63,8 +63,9 @@ _Check out why in the shot below!_
 &nbsp;   
 
 ### Today's coder shot :camera:
-I was proud that I could figure it out by myself, applying some tip I learned from Andrew Mead.
-![screen shot 2018-11-22 at 9 18 34 pm](https://user-images.githubusercontent.com/42050917/48903182-29e64380-ee9e-11e8-8cd7-34dee395050d.JPG)
+This was why the find method didn't work. The data(array) wasn't even parsed yet!
+![screen shot 2018-11-22 at 9 41 19 pm](https://user-images.githubusercontent.com/42050917/48903623-65cdd880-ee9f-11e8-82af-98bfaca632f8.JPG)
+
 _Exploring HTTP request in Udemy_
 
 &nbsp;
