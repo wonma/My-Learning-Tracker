@@ -8,9 +8,9 @@
 ## 24~25 Nov 2018 - Day 25
 
 ### JavaScript Bootcamp in Udemy
-:speech_balloon: 
+:speech_balloon: So glad that I can code everyday.
 
-:small_orange_diamond: upgraded hangman logic/code with...  
+:small_orange_diamond: met these new concepts of..  
 - Promise (resolve, rejcect)  
   : more intuitive way to construct asynchronous execution with built-in error handler 
 (compared to callback formation)
