@@ -5,6 +5,73 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 24~25 Nov 2018 - Day 25
+
+### JavaScript Bootcamp in Udemy
+:speech_balloon: 
+
+:small_orange_diamond: upgraded hangman logic/code with...  
+- Promise (resolve, rejcect)  
+  : a more intuitive way to construct asynchronous execution with error handler 
+(compared to callback formation)
+- Promise chaining  
+  : receiving data from the first execution and use it afterwards.
+- Fetch API  
+  : different way to make HTTP request
+  (compared to creating new instance of XMLHttpRequest( ) )
+
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**'undefined' could mean something has to be returned but didn't!**. 
+  
+```JavaScript
+// Let's find the name of country of code 'KR'
+const getCountryName = (countryCode) => {
+    return fetch('https://restcountries.eu/rest/v2/all', {}).then((response) => {
+        if (response.status === 200) {
+            return response.json()
+        } else {
+            throw new Error('Unable to fetch data')
+        }
+    }).then((countries) => {
+        return countries.find((country) => {country.alpha2Code === countryCode})
+			// 'find' method's anonymous function doesn't return anything!
+    })
+}
+```  
+_check return in functions more carefully!!!_
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
+## 23 Nov 2018 - Day 24
+
+### Udemy JS bootcamp + FCC JS basic section (100% done)
+:speech_balloon: The first meeting of new concepts are tough by nature. But the more I pay interest in it, the stronger weapon they will become eventually!
+
+:small_orange_diamond: Studied ...  
+- Asynchronous vs. synchronous
+- Closure (lexical environment, private variable, currying - Tipper)
+  [MDN explanation of closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) was super helpful.
+- Callback function to be able to use fetched data(from http request)
+
+&nbsp;  
+
+### Today's coder shot :camera:
+I finally understood why callback matters in using fetched data. 
+![callback_visual](https://user-images.githubusercontent.com/42050917/48982850-2d422f00-f12b-11e8-932b-c610d6fc9431.jpg)
+
+_while using HTTP request in Udemy_
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 22 Nov 2018 - Day 23
 
 ### JavaScript Bootcamp in Udemy
