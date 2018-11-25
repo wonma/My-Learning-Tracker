@@ -12,12 +12,12 @@
 
 :small_orange_diamond: upgraded hangman logic/code with...  
 - Promise (resolve, rejcect)  
-  : a more intuitive way to construct asynchronous execution with error handler 
+  : more intuitive way to construct asynchronous execution with built-in error handler 
 (compared to callback formation)
 - Promise chaining  
-  : receiving data from the first execution and use it afterwards.
+  : receiving data from the first execution and using it afterwards.
 - Fetch API  
-  : different way to make HTTP request
+  : a different way to make HTTP request
   (compared to creating new instance of XMLHttpRequest( ) )
 
 &nbsp;  
