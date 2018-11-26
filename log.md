@@ -18,7 +18,6 @@
 - Async function & await  
   (I liked how 'await' lets me be free from having to set up 'throw new error' from promises.)
 - Hosting with Netlify
-- 
 ```JavaScript
 
 const processData = async () => {  // resulting in 'promise'!!!
@@ -33,6 +32,7 @@ processData().then((data) => {
     console.log(error)
 }) 
 ```
+_Quick view on 'async & await'_
 
 &nbsp;  
 
