@@ -8,9 +8,11 @@
 ## 26 Nov 2018 - Day 26
 
 ### JavaScript Bootcamp in Udemy
-:speech_balloon: How closer I got to JavaScript. So glad that reading syntax is not that intimidating now.  
-But one of my happy concerns is.. There are too many things I want to try.. now I want to build & deploy mobile app too... :D  
+:speech_balloon: How closer I got to JavaScript. So glad that reading syntax is not that intimidating now. :D    
+  
 :tada: Finally deployed my first [Hangman app](https://wonmi-hangman.netlify.com/)!  
+![hangman](https://user-images.githubusercontent.com/42050917/49035213-84153a80-f1f7-11e8-9ee9-a6795a5e0cd2.gif)
+  
 
 :small_orange_diamond: met these new concepts of..  
 - Async function & await  
