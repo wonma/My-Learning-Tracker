@@ -5,6 +5,59 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 26 Nov 2018 - Day 26
+
+### JavaScript Bootcamp in Udemy
+:speech_balloon: How closer I got to JavaScript. So glad that reading syntax is not that intimidating now.  
+But one of my happy concerns is.. There are too many things I want to try.. now I want to build & deploy mobile app too... :D  
+:tada: Finally deployed my first [Hangman app](https://wonmi-hangman.netlify.com/)!  
+
+:small_orange_diamond: met these new concepts of..  
+- Async function & await  
+  (I liked how 'await' lets me be free from having to set up 'throw new error' from promises.)
+- Hosting with Netlify
+- 
+```JavaScript
+
+const processData = async () => {  // resulting in 'promise'!!!
+    let data = await trippleNum(data)   // await와 함께 promise만들 callback펑션 써줌
+        data = await trippleNum(data)  // await는 똑똑해서 promise에서 reject되면 자동으로 throw error함.
+    return data
+}
+
+processData().then((data) => {
+    console.log('Data:', data)
+}).catch((error) => {  // Promise에서 에러리포트할 경우에만 catch작동 
+    console.log(error)
+}) 
+```
+
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**'undefined' could mean something has to be returned but didn't!**. 
+  
+```JavaScript
+// Setting up 'async + await' 
+const getCountryName = async (countryCode) => {
+    const response = await fetch('//restcountries.eu/rest/v2/all', {})
+    if (response.status === 200) {
+        const countries = response.json()  // I missed 'await' here.
+        return countries.find((country) => country.alpha2Code === countryCode)    
+    } else {
+        throw new Error('Unable to fetch data')
+    }
+}
+```  
+_'await' is like 'please, wait for this guy to be done!(to the following expressions)'_
+
+&nbsp;
+&nbsp;
+&nbsp;  
+  
+
+----------------------------------------------------------  
 ## 24~25 Nov 2018 - Day 25
 
 ### JavaScript Bootcamp in Udemy
@@ -27,7 +80,6 @@
 **'undefined' could mean something has to be returned but didn't!**. 
   
 ```JavaScript
-// Let's find the name of country of code 'KR'
 const getCountryName = (countryCode) => {
     return fetch('https://restcountries.eu/rest/v2/all', {}).then((response) => {
         if (response.status === 200) {
