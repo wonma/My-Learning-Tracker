@@ -49,7 +49,7 @@ function checkScope() {
   return i;
 }
 ```
-_the variable 'i' inside of if statement only has affects 'i' inside of if statement._
+_the variable 'i' inside of if statement only affects 'i' inside of if statement._
 
 &nbsp;
 &nbsp;
