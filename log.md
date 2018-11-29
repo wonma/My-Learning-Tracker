@@ -5,10 +5,62 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 29 Nov 2018 - Day 28  
+
+### JavaScript Bootcamp in Udemy  
+:speech_balloon: Decided to use gulp for HTML,CSS browser-sync, while using webpack seperately for now.  
+  
+:wrench: Fixed issues on [Hangman app](https://wonmi-hangman.netlify.com/)    
+1) Disabled autocapitalize on input area  
+2) Changed 'typed letter noticing popup' to a fading-in text so that I doesn't disconnect user interaction  
+3) Added 'wrong letters' section for better engagement  
+![hangman2](https://user-images.githubusercontent.com/42050917/49235377-53bedd80-f43d-11e8-8406-0f18d8d8763e.gif)  
+
+:small_orange_diamond: met these new concepts of..  
+- the power of Webpack  
+  (JS module system / babel-loader, babel polyfill / minimize JS)   
+
+&nbsp;
+&nbsp;
+&nbsp;  
+ 
+
+----------------------------------------------------------  
+## 28 Nov 2018 - Day 27
+
+### JavaScript
+
+:small_orange_diamond: JS bootcamp + fCC ES6
+- Understanding Babel  
+  (Babel allows us work in a wider range of browsers even if we’re using super modern JS features)
+- Understand var, let, const (fCC)
+- **Added a keypad activating feature to Hangman app.**  
+
+```JavaScript
+// Restrict the scope of i
+function checkScope() {
+"use strict";
+  let i = "function scope";
+  if (true) {
+    let i = "block scope";
+    console.log("Block scope i is: ", i);
+  }
+  console.log("Function scope i is: ", i);
+  return i;
+}
+```
+_the variable 'i' inside of if statement only has affects 'i' inside of if statement._
+
+&nbsp;
+&nbsp;
+&nbsp;  
+ 
+
+----------------------------------------------------------  
 ## 26 Nov 2018 - Day 26
 
 ### JavaScript Bootcamp in Udemy
-:speech_balloon: How closer I got to JavaScript. So glad that reading syntax is not that intimidating now. :D    
+:speech_balloon: I got much closer to JavaScript. So glad that reading syntax is not that intimidating now. :D    
   
 :tada: Finally deployed my first [Hangman app](https://wonmi-hangman.netlify.com/)!  
 ![hangman](https://user-images.githubusercontent.com/42050917/49035213-84153a80-f1f7-11e8-9ee9-a6795a5e0cd2.gif)
