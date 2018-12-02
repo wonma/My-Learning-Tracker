@@ -8,8 +8,10 @@
 ## 2 Dec 2018 - Day 29  
 
 ### JavaScript with Andrew Mead
-:tada: Deployed first version of [Note App](https://wonmi-note-app.netlify.com/)!   
-  
+:tada: Deployed first version of [Note App](https://wonmi-note-app.netlify.com/)!     
+![noteapp](https://user-images.githubusercontent.com/42050917/49344204-81af5680-f6b7-11e8-8138-facffe72f95e.gif)  
+
+&nbsp;
 :small_orange_diamond: finished up the note app by ..    
 - Adding styles  
 - Adding 'no notes show-up' feature when there's no note  
