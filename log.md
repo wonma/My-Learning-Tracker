@@ -5,9 +5,26 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 2 Dec 2018 - Day 29  
+
+### JavaScript with Andrew Mead
+:tada: Deployed first version of [Note App](https://wonmi-note-app.netlify.com/)!   
+  
+:small_orange_diamond: finished up the note app by ..    
+- Adding styles  
+- Adding 'no notes show-up' feature when there's no note  
+- Figuring out the difference of between the teacher's code structure and mine  
+![note_comparison](https://user-images.githubusercontent.com/42050917/49344041-883cce80-f6b5-11e8-960a-aceccea0f6bb.jpg)  
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+
+----------------------------------------------------------  
 ## 29 Nov 2018 - Day 28  
 
-### JavaScript Bootcamp in Udemy  
+### JavaScript Bootcamp in Udemy with Andrew Mead
 :speech_balloon: Decided to use gulp for HTML,CSS browser-sync, while using webpack seperately for now.  
   
 :wrench: Fixed issues on [Hangman app](https://wonmi-hangman.netlify.com/)    
