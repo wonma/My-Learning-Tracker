@@ -14,7 +14,7 @@
 - Adding styles  
 - Adding 'no notes show-up' feature when there's no note  
 - Figuring out the difference of between the teacher's code structure and mine  
-![note_comparison](https://user-images.githubusercontent.com/42050917/49344041-883cce80-f6b5-11e8-960a-aceccea0f6bb.jpg)  
+![comparison](https://user-images.githubusercontent.com/42050917/49344096-609a3600-f6b6-11e8-8990-39ac8da0ec3e.jpg)
 
 &nbsp;
 &nbsp;
