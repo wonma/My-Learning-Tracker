@@ -7,15 +7,18 @@
 ----------------------------------------------------------  
 ## 3 Dec 2018 - Day 30   
 
-### To-do app refactoring
-:tada: Deployed first version of [To-do App](https://wonmi-note-app.netlify.com/)!     
+### To-do app refactoring & finishing up features
+:tada: Deployed first version of [To-do App](https://wonmi-todo.netlify.com/)!     
 
 &nbsp;
-:small_orange_diamond: finished up the note app by ..    
-- Adding styles  
+:small_orange_diamond: finished up the todo app by adding ..    
+- styles
+- a plural text message
+- validation for new to-do input (trim, length > 0)
+- the html structure of each to-do was the cherry on the top!
 
 ### My Code :ok_hand: vs. Better Code :thumbsup:  
-Differentiating a plural text   
+Adding a plural text   
 **A1. My code** (Do not repeat yourself!!)
 ```JavaScript
 const generateSummaryDOM = (incompleteTodos) => {
@@ -27,8 +30,7 @@ const generateSummaryDOM = (incompleteTodos) => {
     }
     return summary
 }
-```  
-Let's keep in mind that a conditional expression can be assigned to a variable.  
+```   
   
 **A2. Teacher's code** (He made a variable 'plural' returning 's' or empty string.)
 ```JavaScript
@@ -39,6 +41,9 @@ const generateSummaryDOM = (incompleteTodos) => {
     return summary
 }
 ```
+- Figured out the difference of between the teacher's code structure and mine  
+- The teacher uses 'validation' for any input from user / returned value from .find, .findIndex.. etc.
+  This kind of setup is also advantageous for preventing the app from crashing with unexpected returned values.
 &nbsp;
 &nbsp;
 &nbsp;  
