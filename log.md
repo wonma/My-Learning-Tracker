@@ -14,7 +14,31 @@
 :small_orange_diamond: finished up the note app by ..    
 - Adding styles  
 
-
+### My Code :ok_hand: vs. Better Code :thumbsup:  
+Differentiating a plural text   
+**A1. My code** (Do not repeat yourself!!)
+```JavaScript
+const generateSummaryDOM = (incompleteTodos) => {
+    const summary = document.createElement('h2')
+    if (incompleteTodos.length === 1) {
+        summary.textContent = `You have ${incompleteTodos.length} item to complete`
+    } else if (incompleteTodos.length >= 1) {
+        summary.textContent = `You have ${incompleteTodos.length} items to complete`
+    }
+    return summary
+}
+```  
+Let's keep in mind that a conditional expression can be assigned to a variable.  
+  
+**A2. Teacher's code** (He made a variable 'plural' returning 's' or empty string.)
+```JavaScript
+const generateSummaryDOM = (incompleteTodos) => {
+    const summary = document.createElement('h2')
+    const plural = () => incompleteTodos.length === 1 ? '' : 's'
+    summary.textContent = `You have ${incompleteTodos.length} item${plural} to complete`
+    return summary
+}
+```
 &nbsp;
 &nbsp;
 &nbsp;  
@@ -55,31 +79,7 @@
 - the power of Webpack  
   (JS module system / babel-loader, babel polyfill / minimize JS)   
 
-### My Code :ok_hand: vs. Better Code :thumbsup:  
-Differentiating a plural text   
-**A1. My code** (Do not repeat yourself!!)
-```JavaScript
-const generateSummaryDOM = (incompleteTodos) => {
-    const summary = document.createElement('h2')
-    if (incompleteTodos.length === 1) {
-        summary.textContent = `You have ${incompleteTodos.length} item to complete`
-    } else if (incompleteTodos.length >= 1) {
-        summary.textContent = `You have ${incompleteTodos.length} items to complete`
-    }
-    return summary
-}
-```  
-Let's keep in mind that a conditional expression can be assigned to a variable.  
-  
-**A2. Teacher's code** (He made a variable 'plural' returning 's' or empty string.)
-```JavaScript
-const generateSummaryDOM = (incompleteTodos) => {
-    const summary = document.createElement('h2')
-    const plural = () => incompleteTodos.length === 1 ? '' : 's'
-    summary.textContent = `You have ${incompleteTodos.length} item${plural} to complete`
-    return summary
-}
-```
+
 
 
 &nbsp;
