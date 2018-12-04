@@ -36,7 +36,7 @@ const generateSummaryDOM = (incompleteTodos) => {
 ```JavaScript
 const generateSummaryDOM = (incompleteTodos) => {
     const summary = document.createElement('h2')
-    const plural = () => incompleteTodos.length === 1 ? '' : 's'
+    const plural = incompleteTodos.length === 1 ? '' : 's'
     summary.textContent = `You have ${incompleteTodos.length} item${plural} to complete`
     return summary
 }
