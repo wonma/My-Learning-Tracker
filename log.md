@@ -44,7 +44,7 @@ const generateSummaryDOM = (incompleteTodos) => {
 - Figured out the difference of between the teacher's code structure and mine  
 - The teacher uses 'validation' for any input from user / returned value from .find, .findIndex.. etc.
   This kind of setup is also advantageous for preventing the app from crashing with unexpected returned values.   
-![comparison2](https://user-images.githubusercontent.com/42050917/49421650-2921ab80-f7d4-11e8-8cd3-aecb23c48aa1.jpg) 
+![comparison2](https://user-images.githubusercontent.com/42050917/49421945-3f7c3700-f7d5-11e8-9330-11a341a13286.jpg)
   
 &nbsp;
 &nbsp;
