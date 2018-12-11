@@ -38,8 +38,7 @@ Good practice to make the learned skills my own!
 - Object Spread Syntax (object merging)
 - Destructuring (creating new constant variables, fetched from a specific object, with default value and customized local variable name)
 
-### My Code :ok_hand: vs. Better Code :thumbsup:  
-Adding a plural text   
+### My Code :ok_hand: vs. Better Code :thumbsup:   
 **A1. My code** (couldn't come up with join method)
 ```JavaScript
 const printTeam = (teamName, coach, ...players) => {
