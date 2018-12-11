@@ -5,6 +5,68 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 11 Dec 2018 - Day 32   
+
+### Started building Recipe App  
+Good practice to make the learned skills my own!
+![screen shot 2018-12-12 at 2 47 55 am](https://user-images.githubusercontent.com/42050917/49819294-624fb200-fdb8-11e8-90c8-4d65bf250fe1.JPG)
+
+&nbsp;
+:small_orange_diamond: Features (so far)   
+- Ingredient checkbox filtering
+- Food type radio button filtering
+- Evaluating the score of recommended recipes
+
+  
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
+## 10 Dec 2018 - Day 31   
+
+### Completed my first JS Bootcamp course!
+:tada: Completed Modern JavaScript Bootcamp course on Udemy!
+![screen shot 2018-12-12 at 2 27 53 am](https://user-images.githubusercontent.com/42050917/49818307-b9a05300-fdb5-11e8-9995-c5cfa537c91a.JPG)
+
+
+&nbsp;
+:small_orange_diamond: learned advanced JS features such as ..    
+- Rest Parameter '...parameterName' eg) calculateAverage
+  (I can put arguments in functions as much as I want! It automatically creates an array out of the arguments)  
+- Spread Syntax (copy, update array)
+- Object Spread Syntax (object merging)
+- Destructuring (creating new constant variables, fetched from a specific object, with default value and customized local variable name)
+
+### My Code :ok_hand: vs. Better Code :thumbsup:  
+Adding a plural text   
+**A1. My code** (couldn't come up with join method)
+```JavaScript
+const printTeam = (teamName, coach, ...players) => {
+    let teamAll = ''
+    players.forEach((player) => {
+        teamAll += `, ${player}`
+    })
+    console.log(`Team Name: ${teamName}`)
+    console.log(`Coach: ${coach}`)
+    console.log(`Team members: ${teamAll}`)
+}
+```   
+  
+**A2. Teacher's code** 
+```JavaScript
+const printTeam = (teamName, coach, ...players) => {
+    console.log(`Team : ${teamName}`)
+    console.log(`Coach : ${coach}`)
+    console.log(`Players : ${players.join(', ')}`)
+}
+```
+  
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 3 Dec 2018 - Day 30   
 
 ### To-do app refactoring & finishing up features
