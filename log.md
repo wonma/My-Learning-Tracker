@@ -13,7 +13,8 @@
 :small_orange_diamond: Features (added)   
 - Sorting by 'matching rate' (activated when an ingredient is checked)
 - Links to 'Edit' or 'View' page
-- Edit page DOM manipulation (working on)
+- Edit page DOM manipulation (working on)  
+&nbsp;  
 ![haha](https://user-images.githubusercontent.com/42050917/49872942-ead45e00-fe5d-11e8-91f7-20b17087a816.jpg)
 
 
