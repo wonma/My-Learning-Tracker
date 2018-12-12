@@ -5,6 +5,23 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 12 Dec 2018 - Day 33   
+
+### Buliding Recipe App  
+
+&nbsp;
+:small_orange_diamond: Features (added)   
+- Sorting by 'matching rate' (activated when an ingredient is checked)
+- Links to 'Edit' or 'View' page
+- Edit page DOM manipulation (working on)
+![haha](https://user-images.githubusercontent.com/42050917/49872942-ead45e00-fe5d-11e8-91f7-20b17087a816.jpg)
+
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 11 Dec 2018 - Day 32   
 
 ### Started building Recipe App  
