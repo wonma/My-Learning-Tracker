@@ -5,6 +5,31 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 13 Dec 2018 - Day 34   
+
+### Resumed [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/)
+
+&nbsp;
+:small_orange_diamond: Learned advanced JS topics of ...    
+- Useful 'returing' array methods, '.map(), filter(), .reduce()'  
+- Creating a class using 'Class', 'extends', 'super'  
+- ES7 features: includes(), exponential operator 지수 연산자  
+- ES8 features: str.padStart(10, '='), str.padEnd(10), Object.values(obj), Object.entries(obj)  
+- for of, for in loop (iterable-> string, array, emunarable->obj)  
+- How JavaScript Works (synchronous, asynchronous)
+- V8 engine's memery hip & call stack
+- JavaScript runtime environment (Web API, callback queue, event loop)
+- Modules (+why it's needed)  
+&nbsp;  
+### _"Javascript as a single threaded language that can be non-blocking."_  
+![screen shot 2018-12-14 at 1 37 44 am](https://user-images.githubusercontent.com/42050917/49953197-ed5bb400-ff40-11e8-99f1-a717ee57fcbd.JPG)  
+_From [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/)_  
+&nbsp;
+&nbsp;
+&nbsp;  
+
+
+----------------------------------------------------------  
 ## 12 Dec 2018 - Day 33   
 
 ### Buliding Recipe App  
