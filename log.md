@@ -15,11 +15,11 @@
 - Creating a class using 'Class', 'extends', 'super'  
 - ES7 features: includes(), exponential operator 지수 연산자  
 - ES8 features: str.padStart(10, '='), str.padEnd(10), Object.values(obj), Object.entries(obj)  
-- for of, for in loop (iterable-> string, array, emunarable->obj)  
+- for of, for in loop (iterable-> string, array vs. emunarable->obj)  
 - How JavaScript Works (synchronous, asynchronous)
-- V8 engine's memery hip & call stack
+- V8 engine's memery heap & call stack
 - JavaScript runtime environment (Web API, callback queue, event loop)
-- Modules (+why it's needed)  
+- Modules (+ why it's needed)  
 &nbsp;  
 ### _"Javascript as a single threaded language that can be non-blocking."_  
 ![screen shot 2018-12-14 at 1 37 44 am](https://user-images.githubusercontent.com/42050917/49953197-ed5bb400-ff40-11e8-99f1-a717ee57fcbd.JPG)  
