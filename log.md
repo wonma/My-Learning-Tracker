@@ -10,16 +10,11 @@
 ### Buliding Recipe App (D3)
 
 &nbsp;
-:small_orange_diamond: Learned advanced JS topics of ...    
-- Useful 'returing' array methods, '.map(), filter(), .reduce()'  
-- Creating a class using 'Class', 'extends', 'super'  
-- ES7 features: includes(), exponential operator 지수 연산자  
-- ES8 features: str.padStart(10, '='), str.padEnd(10), Object.values(obj), Object.entries(obj)  
-- for of, for in loop (iterable-> string, array vs. emunarable->obj)  
-- How JavaScript Works (synchronous, asynchronous)
-- V8 engine's memery heap & call stack
-- JavaScript runtime environment (Web API, callback queue, event loop)
-- Modules (+ why it's needed)  
+:small_orange_diamond: Added functionality of ...    
+- Saving and fetching data from localStorage
+- Saving button for the whole form values
+- Adding ingredient input boxes with plus button
+
 &nbsp;  
 ### Errors & Solution  
 **A1. Errors** (JSON, who's assigning 'null'..)  
