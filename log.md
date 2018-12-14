@@ -5,6 +5,76 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 14 Dec 2018 - Day 35   
+
+### Buliding Recipe App (D3)
+
+&nbsp;
+:small_orange_diamond: Learned advanced JS topics of ...    
+- Useful 'returing' array methods, '.map(), filter(), .reduce()'  
+- Creating a class using 'Class', 'extends', 'super'  
+- ES7 features: includes(), exponential operator 지수 연산자  
+- ES8 features: str.padStart(10, '='), str.padEnd(10), Object.values(obj), Object.entries(obj)  
+- for of, for in loop (iterable-> string, array vs. emunarable->obj)  
+- How JavaScript Works (synchronous, asynchronous)
+- V8 engine's memery heap & call stack
+- JavaScript runtime environment (Web API, callback queue, event loop)
+- Modules (+ why it's needed)  
+&nbsp;  
+### Errors & Solution  
+**A1. Errors** (JSON, who's assigning 'null'..)  
+(didn't know why I kept getting 'null' for recipes. 
+I was like, "what's wrong? recipes is just empty array not a null!"  
+But the fact was that JSON was reassigning 'null' to recipes.)  
+```JavaScript
+let recipes = []
+
+const getData = () => {
+    recipes = JSON.parse(localStorage.getItem('recipes'))
+    return recipes
+}
+```   
+  
+**A2. Fixed** 
+```JavaScript
+let recipes = []
+
+const loadData = () => {
+    const recipesFromJSON = localStorage.getItem('recipes')
+    
+    try {
+        return recipesFromJSON ? JSON.parse(recipesFromJSON) : []
+    } catch (e) {
+        return []
+    }
+}
+
+recipes = loadData()
+
+const getData = () => recipes
+```
+
+**B1. Errors** (When you want a specific 'object' out of array..)  
+(Even though it's just 'one' thing out of array, if the thing is 'object' 
+I must use 'find', not 'filter'...!!!
+Because filter always returns an array!)    
+```JavaScript
+const theRecipe = recipes.filter((recipe) => recipe.id === recipeID)
+// theRecipe logs out '[{...}]'
+// typeof theRecipe is 'array'
+```   
+  
+**B2. Fixed** 
+```JavaScript
+const theRecipe = recipes.find((recipe) => recipe.id === recipeID)
+// theRecipe logs out '{id:.., title:...}'
+// typeof theRecipe is 'object'
+```
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 13 Dec 2018 - Day 34   
 
 ### Resumed [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/)
@@ -32,7 +102,7 @@ _From [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-develo
 ----------------------------------------------------------  
 ## 12 Dec 2018 - Day 33   
 
-### Buliding Recipe App  
+### Buliding Recipe App  (D2)
 
 &nbsp;
 :small_orange_diamond: Features (added)   
@@ -50,7 +120,7 @@ _From [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-develo
 ----------------------------------------------------------  
 ## 11 Dec 2018 - Day 32   
 
-### Started building Recipe App  
+### Started building Recipe App  (D1)
 Good practice to make the learned skills my own!
 ![screen shot 2018-12-12 at 2 47 55 am](https://user-images.githubusercontent.com/42050917/49819294-624fb200-fdb8-11e8-90c8-4d65bf250fe1.JPG)
 
