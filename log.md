@@ -17,7 +17,7 @@
 
 &nbsp;  
 ### Errors & Solution  
-**A1. Errors** (JSON, who's assigning 'null'..)  
+**A. JSON, who's assigning 'null'..** 
 (didn't know why I kept getting 'null' for recipes. 
 I was like, "what's wrong? recipes is just empty array not a null!"  
 But the fact was that JSON was reassigning 'null' to recipes.)  
@@ -30,7 +30,7 @@ const getData = () => {
 }
 ```   
   
-**A2. Fixed** 
+**Fixed** 
 ```JavaScript
 let recipes = []
 
@@ -49,7 +49,7 @@ recipes = loadData()
 const getData = () => recipes
 ```
 
-**B1. Errors** (When you want a specific 'object' out of array..)  
+**B. When you want a specific 'object' out of array..**
 (Even though it's just 'one' thing out of array, if the thing is 'object' 
 I must use 'find', not 'filter'...!!!
 Because filter always returns an array!)    
@@ -59,7 +59,7 @@ const theRecipe = recipes.filter((recipe) => recipe.id === recipeID)
 // typeof theRecipe is 'array'
 ```   
   
-**B2. Fixed** 
+**Fixed** 
 ```JavaScript
 const theRecipe = recipes.find((recipe) => recipe.id === recipeID)
 // theRecipe logs out '{id:.., title:...}'
