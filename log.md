@@ -9,7 +9,7 @@
 
 ### Buliding Recipe App  (D4)
 
-&nbsp;
+&nbsp; Completed 'Edit' page
 :small_orange_diamond:  
 - Linking values of ingredient inputs to each property on localStorage
 - Enabling 'remove' ingredient function, fixing 'add' ingredient functionality
