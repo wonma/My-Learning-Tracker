@@ -5,6 +5,26 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 16 Dec 2018 - Day 36   
+
+### Buliding Recipe App  (D4)
+
+&nbsp;
+:small_orange_diamond:  
+- Linking values of ingredient inputs to each property on localStorage
+- Enabling 'remove' ingredient function, fixing 'add' ingredient functionality
+- Initiating 'edit page' with DOM generating functions
+
+
+&nbsp;  
+![screen shot 2018-12-16 at 6 25 42 pm](https://user-images.githubusercontent.com/42050917/50052047-1490cc00-0161-11e9-9231-ea32ebc8736a.JPG)
+
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 14 Dec 2018 - Day 35   
 
 ### Buliding Recipe App (D3)
