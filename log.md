@@ -18,7 +18,43 @@
 - Need to learn more later about JS run-time environment (Web API, callback queue, event loop)
 
 &nbsp;  
-### _"Javascript as a single threaded language that can be non-blocking."_  
+### _"Javascript as a single threaded language that can be non-blocking."_    
+&nbsp;    
+### My Code :ok_hand: vs. Better Code :thumbsup:   
+**A1. My code** (used 'reduce')
+```JavaScript
+const array = [-1, 0, 3, 100, 99, 2, 99]
+
+function biggestNumberInArray(arr) {
+    const answer = arr.reduce((acc, each)=>{
+        if (acc > each) {
+            return acc
+        } else if(acc < each) {
+            return each
+        } else {
+            return acc
+        }
+    }, 0)
+    console.log(answer)
+}
+```   
+  
+**A2. Teacher's code** (used 'for')
+```JavaScript
+function biggestNumberInArray(arr) {
+  let highest = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (highest < arr[i]) {
+      highest = arr[i];
+    }
+  }
+  return highest
+}
+```
+  
+&nbsp;
+&nbsp;
+&nbsp;  
 &nbsp;
 &nbsp;
 &nbsp;  
