@@ -5,6 +5,25 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 17 Dec 2018 - Day 37   
+
+### [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/)
+
+&nbsp;
+:small_orange_diamond: Reviewed and did exerciese for...    
+- ES8 features: Object.values(obj), Object.entries(obj)  
+- loops, for of, for in loop (iterable-> string, array vs. emunarable->obj)  
+- How JavaScript Works (synchronous, asynchronous)  
+  (taking an example of Web API's setTimeout function, setting time at '2000' or '0' milliseconds)
+- Need to learn more later about JS run-time environment (Web API, callback queue, event loop)
+
+&nbsp;  
+### _"Javascript as a single threaded language that can be non-blocking."_  
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 16 Dec 2018 - Day 36   
 
 ### Buliding Recipe App  (D4)
