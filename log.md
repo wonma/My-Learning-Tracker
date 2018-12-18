@@ -20,11 +20,15 @@
 &nbsp;  
 ### _"Javascript as a single threaded language that can be non-blocking."_    
 &nbsp;    
-### My Code :ok_hand: vs. Better Code :thumbsup:   
-**A1. My code** (used 'reduce')
-```JavaScript
-const array = [-1, 0, 3, 100, 99, 2, 99]
+### My Code :ok_hand: vs. Better Code :thumbsup: 
+```JavaScript  
+// return the biggest number in an array
+const array = [-1, 0, 3, 100, 99, 2, 99]  
+```  
 
+**A1. My code** (used 'reduce')
+
+```JavaScript
 function biggestNumberInArray(arr) {
     return arr.reduce((acc, each)=>{ return acc < each ? each : acc }, 0)
 }
