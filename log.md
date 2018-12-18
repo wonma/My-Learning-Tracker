@@ -26,16 +26,7 @@
 const array = [-1, 0, 3, 100, 99, 2, 99]
 
 function biggestNumberInArray(arr) {
-    const answer = arr.reduce((acc, each)=>{
-        if (acc > each) {
-            return acc
-        } else if(acc < each) {
-            return each
-        } else {
-            return acc
-        }
-    }, 0)
-    console.log(answer)
+    return arr.reduce((acc, each)=>{ return acc < each ? each : acc }, 0)
 }
 ```   
   
