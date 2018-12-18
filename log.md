@@ -22,8 +22,10 @@
 &nbsp;    
 ### My Code :ok_hand: vs. Better Code :thumbsup: 
 ```JavaScript  
-// return the biggest number in an array
-const array = [-1, 0, 3, 100, 99, 2, 99]  
+// Mission : creating a function that returns the biggest number in an array
+const array = [-1, 0, 3, 100, 99, 2, 99] // should return 100
+const array2 = ['a', 3, 4, 2] // should return 4
+const array3 = [] // should return 0
 ```  
 
 **A1. My code** (used 'reduce')
