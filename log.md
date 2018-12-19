@@ -21,7 +21,7 @@
 - Fixed a bug (type not getting saved)   
 - Added 'add other ingredient' feature on index.html   
 - Fixed 'match score' calculation logic   
-- Fixed filter so it can check a word included in a phrase too (ex. 'pork' in 'pork loin'  
+- Fixed filter so it can check a word included in a phrase too (ex. 'pork' in 'pork loin')
 - Implemented 'delete' button on edit.html   
 
 &nbsp;
