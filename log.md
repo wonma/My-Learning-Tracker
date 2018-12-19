@@ -5,6 +5,30 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 19 Dec 2018 - Day 38   
+
+### [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/) + Recipe App
+
+&nbsp;
+:small_orange_diamond: Learned about...      
+- How to contribute to open source  
+- Fork & clone repo on Github  
+- Branch, merge conflict, PR(pull request)  
+- Typical day of developer (git checkout master, git pull... / Trello)   
+
+&nbsp;  
+:small_orange_diamond: For Recipe-app...      
+- Fixed a bug (type not getting saved)   
+- Added 'add other ingredient' feature on index.html   
+- Fixed 'match score' calculation logic   
+- Fixed filter so it can check a word included in a phrase too (ex. 'pork' in 'pork loin'  
+- Implemented 'delete' button on edit.html   
+
+&nbsp;
+&nbsp;
+&nbsp;  
+
+----------------------------------------------------------  
 ## 17 Dec 2018 - Day 37   
 
 ### [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/)
