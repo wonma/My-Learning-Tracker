@@ -55,10 +55,6 @@ const Card = (props) => {
 ### Today's coder shot :camera:
 I finally started to build with React! 
 ![screen shot 2018-12-21 at 12 28 13 am](https://user-images.githubusercontent.com/42050917/50293731-96615c00-04b7-11e9-82b1-a461e6cbc18e.JPG)
-
-
-&nbsp;
-&nbsp;
 &nbsp;  
 
 ----------------------------------------------------------  
