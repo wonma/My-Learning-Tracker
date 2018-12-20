@@ -15,6 +15,7 @@
 - basic JSX syntax for DOM
 - Component & 'props'
 - random image API : https://robohash.org
+&nbsp;  
 
 ### Best Error of Today :sweat_drops:
 
@@ -46,12 +47,13 @@ const Card = (props) => {
 	)
 }
 ```  
+&nbsp;  
 
 ### My Question Was.. :question:
 **Can't I just use 'map' to loop over 10 robot data in 'index.js' ?**  
 **Why do I have to create 'Cardlist.js', which is one more additional JS file?**
-(will think more on this tomorrow)
-
+(will think more on this tomorrow)  
+&nbsp;    
 ### Today's coder shot :camera:
 I finally started to build with React! 
 ![screen shot 2018-12-21 at 12 28 13 am](https://user-images.githubusercontent.com/42050917/50293731-96615c00-04b7-11e9-82b1-a461e6cbc18e.JPG)
