@@ -20,7 +20,8 @@
 
 **How to get into JS mode in JSX**. 
   
-```JavaScript // Wrong
+```JavaScript 
+// Wrong
 const Card = (props) => {
 	return (
 		<div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
@@ -33,7 +34,8 @@ const Card = (props) => {
 ```  
 _Curly brackets are not the operators for getting into JS mode! it's part of JSX syntax_  
 
-```JavaScript // Fixed
+```JavaScript 
+// Fixed
 const Card = (props) => {
 	return (
 		<div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
@@ -46,8 +48,8 @@ const Card = (props) => {
 ```  
 
 ### My Question Was.. :sweat_drops:
-# Can't I just use 'map' to loop over 10 robot data in 'index.js' ?  
-# Why do I have to create 'Cardlist.js', which is one more additional JS file?  
+#### Can't I just use 'map' to loop over 10 robot data in 'index.js' ?  
+#### Why do I have to create 'Cardlist.js', which is one more additional JS file?  
 (will think more on this tomorrow)
 
 
