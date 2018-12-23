@@ -5,6 +5,76 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 23 Dec 2018 - Day 40   
+
+### [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/) 
+
+&nbsp;
+:small_orange_diamond: Started to learned React about...      
+- Starting with 'create-react-app' package
+- basic JSX syntax for DOM
+- Component & 'props'
+- random image API : https://robohash.org
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**How to get into JS mode in JSX**. 
+  
+```JavaScript 
+// Wrong
+class App extends Component {
+	constructor() {
+		super()
+		this.state = {
+			robots: robots,
+			searchfield: ''
+		}
+	}
+	
+	onSearchChange = (event) => {
+		this.state.searchfield = event.target.value
+		// wrong way to update state
+	}
+...
+}
+```  
+_To update 'state', we have to use 'this.setState()' method._  
+
+```JavaScript 
+// Fixed
+class App extends Component {
+	constructor() {
+		super()
+		this.state = {
+			robots: robots,
+			searchfield: ''
+		}
+	}
+	
+	onSearchChange = (event) => {
+		this.setState({searchfield : event.target.value})
+	}
+...
+}
+```  
+&nbsp;  
+
+### My Question Was.. :question:
+**Can't I just use 'map' to loop over 10 robot data in 'index.js' ?**  
+**Why do I have to create 'Cardlist.js', which is one more additional JS file?**
+(will think more on this tomorrow)  
+&nbsp;    
+### Today's coder shot :camera:
+I finally started to build with React! 
+
+
+&nbsp;  
+&nbsp; 
+&nbsp; 
+&nbsp; 
+
+----------------------------------------------------------  
 ## 20 Dec 2018 - Day 39   
 
 ### [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/) 
