@@ -7,14 +7,14 @@
 ----------------------------------------------------------  
 ## 23 Dec 2018 - Day 40   
 
-### [Andre's JS course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery/) 
+### Robofriend app (on building)
 
 &nbsp;
-:small_orange_diamond: Started to learned React about...      
-- Starting with 'create-react-app' package
-- basic JSX syntax for DOM
-- Component & 'props'
-- random image API : https://robohash.org
+:small_orange_diamond: Learned React esp on...      
+- 'state'
+- creating class Component to create 'this.state'
+- using 'onChange' to create a callback function in class
+- using 'this.setState' to update state
 &nbsp;  
 
 ### Best Error of Today :sweat_drops:
@@ -60,13 +60,12 @@ class App extends Component {
 ```  
 &nbsp;  
 
-### My Question Was.. :question:
-**Can't I just use 'map' to loop over 10 robot data in 'index.js' ?**  
-**Why do I have to create 'Cardlist.js', which is one more additional JS file?**
-(will think more on this tomorrow)  
-&nbsp;    
-### Today's coder shot :camera:
-I finally started to build with React! 
+### My Question Is.. :question:
+**Whenever the state changes, does it automatically cause rerendering?**  
+&nbsp;  
+
+### About React 'this' 
+https://reactjs.org/docs/handling-events.html
 
 
 &nbsp;  
@@ -122,7 +121,10 @@ const Card = (props) => {
 ### My Question Was.. :question:
 **Can't I just use 'map' to loop over 10 robot data in 'index.js' ?**  
 **Why do I have to create 'Cardlist.js', which is one more additional JS file?**
-(will think more on this tomorrow)  
+My answer to this is, the mechanism going on React is creating 'components'.
+I could loop over the 10 robot data in index.js but i
+It's like grouping a list of elements with a higher-class element.
+This grouping makes it easy to reuse, remove, relocate the component as a whole.
 &nbsp;    
 ### Today's coder shot :camera:
 I finally started to build with React! 
