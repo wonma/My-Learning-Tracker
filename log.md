@@ -15,9 +15,9 @@
 - 'onChange' + a callback function in class
 - 'this.setState' to update state
 - 'pure component' vs. 'smart component' (the latter has 'state')
-- ['lifecycle hooks']() in class component, which get automatically triggered
+- ['lifecycle hooks'](https://reactjs.org/docs/react-component.html) in class component, which get automatically triggered
 - fetch() (a windows method)
-- 'componentDidMount' + fetch() to fetch JSON data
+- 'componentDidMount' + [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to fetch JSON data
 &nbsp;  
 
 ### Best Error of Today :sweat_drops:
@@ -68,9 +68,9 @@ class App extends Component {
 &nbsp;  
 
 ### Useful links
-[React, about 'this'](https://reactjs.org/docs/handling-events.html)
-[Nice font site for webfont 'cufonfonts'](https://www.cufonfonts.com/)
-[json placeholder](https://jsonplaceholder.typicode.com/)
+[React, about 'this'](https://reactjs.org/docs/handling-events.html)  
+[Nice font site for webfont 'cufonfonts'](https://www.cufonfonts.com/)  
+[json placeholder](https://jsonplaceholder.typicode.com/)  
 
 &nbsp;  
 &nbsp; 
