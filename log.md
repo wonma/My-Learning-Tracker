@@ -11,10 +11,13 @@
 
 &nbsp;
 :small_orange_diamond: Learned React esp on...      
-- 'state'
-- creating class Component to create 'this.state'
-- using 'onChange' to create a callback function in class
-- using 'this.setState' to update state
+- 'state', 'this.state' in class Component
+- 'onChange' + a callback function in class
+- 'this.setState' to update state
+- 'pure component' vs. 'smart component' (the latter has 'state')
+- ['lifecycle hooks']() in class component, which get automatically triggered
+- fetch() (a windows method)
+- 'componentDidMount' + fetch() to fetch JSON data
 &nbsp;  
 
 ### Best Error of Today :sweat_drops:
@@ -64,9 +67,10 @@ class App extends Component {
 **Whenever the state changes, does it automatically cause rerendering?**  
 &nbsp;  
 
-### About React 'this' 
-https://reactjs.org/docs/handling-events.html
-
+### Useful links
+[React, about 'this'](https://reactjs.org/docs/handling-events.html)
+[Nice font site for webfont 'cufonfonts'](https://www.cufonfonts.com/)
+[json placeholder](https://jsonplaceholder.typicode.com/)
 
 &nbsp;  
 &nbsp; 
