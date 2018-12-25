@@ -5,6 +5,52 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 25 Dec 2018 - Day 41    
+
+### Robofriend app (on building)
+
+&nbsp;
+:small_orange_diamond: Improved robofriends app with...      
+- 'componentDidMount' + [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to fetch JSON data
+- API request to [json placeholder](https://jsonplaceholder.typicode.com/)
+- Scroll function for CardList (using 'props.children')
+- new concept! 'Component that wraps children components'  
+  (All components have props.children by default)
+- ErrorBoundary component for 'CardList'
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**How to get into JS mode in JSX**. 
+  
+```JavaScript 
+// Wrong
+componentDidMount() {
+	fetch('https://jsonplaceholder.typicode.com/users')
+		.then(response => response.json) // error here
+		.then(users => this.setState({robots : users}))
+	}
+```  
+_json is a method! should use '()'_  
+
+```JavaScript 
+// Fixed
+componentDidMount() {
+	fetch('https://jsonplaceholder.typicode.com/users')
+		.then(response => response.json()) // fixed
+		.then(users => this.setState({robots : users}))
+	}
+```  
+&nbsp;  
+
+### My Question Is.. :question:
+**How can I manage CSS files following BEM & file structure?...**  
+
+&nbsp;  
+&nbsp; 
+&nbsp; 
+
+----------------------------------------------------------  
 ## 23 Dec 2018 - Day 40   
 
 ### Robofriend app (on building)
@@ -65,6 +111,9 @@ class App extends Component {
 
 ### My Question Is.. :question:
 **Whenever the state changes, does it automatically cause rerendering?**  
+My answer to this is : Yes. Automatic event handling is built in React components.  
+It's what lifecycle methods are about.  
+When there's a change in 'state', render() methods get called automatically, and the browser view is repainted!
 &nbsp;  
 
 ### Useful links
