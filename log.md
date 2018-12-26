@@ -5,6 +5,50 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 26 Dec 2018 - Day 42    
+
+### API request (with Andrei's Udemy course)
+
+&nbsp;
+:small_orange_diamond: Learned new concepts about...      
+- AJAX (how to make http request without reloading)  
+- Promises  
+- Async await(ES8)  
+- deploying static websites through github-pages ('[gh-pages](https://www.youtube.com/watch?v=SKXkC4SqtRk)' npm package)
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**How to get into JS mode in JSX**. 
+  
+```JavaScript 
+// Wrong
+componentDidMount() {
+	fetch('https://jsonplaceholder.typicode.com/users')
+		.then(response => response.json) // error here
+		.then(users => this.setState({robots : users}))
+	}
+```  
+_json is a method! should use '()'_  
+
+```JavaScript 
+// Fixed
+componentDidMount() {
+	fetch('https://jsonplaceholder.typicode.com/users')
+		.then(response => response.json()) // fixed
+		.then(users => this.setState({robots : users}))
+	}
+```  
+&nbsp;  
+
+### My Question Is.. :question:
+**How can I manage CSS files following BEM & file structure?...**  
+
+&nbsp;  
+&nbsp; 
+&nbsp;  
+
+----------------------------------------------------------  
 ## 25 Dec 2018 - Day 41    
 
 ### Robofriend app (on building)
@@ -21,7 +65,7 @@
 
 ### Best Error of Today :sweat_drops:
 
-**How to get into JS mode in JSX**. 
+** fetch method has json() in it. **. 
   
 ```JavaScript 
 // Wrong
