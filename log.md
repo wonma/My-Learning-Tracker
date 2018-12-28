@@ -5,6 +5,35 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 28 Dec 2018 - Day 43    
+
+### Promise, Async, Spread, Finally (with Andrei's Udemy course)
+
+&nbsp;
+:small_orange_diamond: Learned new concepts and did exercises about...      
+- Promises, [Helpful video on Promise chain](https://www.youtube.com/watch?v=s6SH72uAn3Q)  
+- Async await(ES8, syntactic sugar)
+&nbsp;  
+
+### Best Error of Today :sweat_drops:
+
+**How to get into JS mode in JSX**. 
+  
+```JavaScript 
+// Wrong
+....
+```  
+_json is a method! should use '()'_  
+
+```JavaScript 
+// Fixed
+...
+```  
+&nbsp;  
+&nbsp; 
+&nbsp;  
+
+----------------------------------------------------------  
 ## 26 Dec 2018 - Day 42    
 
 ### API request (with Andrei's Udemy course)
@@ -12,8 +41,7 @@
 &nbsp;
 :small_orange_diamond: Learned new concepts about...      
 - AJAX (how to make http request without reloading)  
-- Promises  
-- Async await(ES8)  
+- Promises   
 - deploying static websites through github-pages ('[gh-pages](https://www.youtube.com/watch?v=SKXkC4SqtRk)' npm package)
 &nbsp;  
 
