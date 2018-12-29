@@ -5,6 +5,52 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 29 Dec 2018 - Day 44    
+
+### Reviewed asynchronous function (with Andrei's Udemy course)
+
+&nbsp;
+:small_orange_diamond: Promise, Async await    
+- feel like I got the hang of it now, but
+  need to practice 'async await' & 'for await of' more.
+
+&nbsp;  
+### Best Error of Today :sweat_drops:
+
+**How to get into JS mode in JSX**. 
+  
+```JavaScript 
+// Wrong
+const getData = async function () {
+    const [posts, users] = await Promise.all(urls.map( (url) => { // error here
+        const response = await fetch(url)
+        return response.json()
+    }))
+
+    console.log(posts)
+    console.log(users)
+}
+```  
+_await needs to be wrapped by 'async' directly_  
+
+```JavaScript 
+// Fixed (now, there are two 'async' keywords being used)
+const getData = async function () {
+    const [posts, users] = await Promise.all(urls.map(async (url) => { // added 'async'
+        const response = await fetch(url)
+        return response.json()
+    }))
+
+    console.log(posts)
+    console.log(users)
+}
+```  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+&nbsp;  
+
+----------------------------------------------------------  
 ## 28 Dec 2018 - Day 43    
 
 ### Promise, Async, Spread, Finally (with Andrei's Udemy course)
@@ -13,22 +59,7 @@
 :small_orange_diamond: Learned new concepts and did exercises about...      
 - Promises, [Helpful video on Promise chain](https://www.youtube.com/watch?v=s6SH72uAn3Q)  
 - Async await(ES8, syntactic sugar)
-&nbsp;  
 
-### Best Error of Today :sweat_drops:
-
-**How to get into JS mode in JSX**. 
-  
-```JavaScript 
-// Wrong
-....
-```  
-_json is a method! should use '()'_  
-
-```JavaScript 
-// Fixed
-...
-```  
 &nbsp;  
 &nbsp; 
 &nbsp;  
