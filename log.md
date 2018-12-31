@@ -101,7 +101,7 @@ componentDidMount() {
 &nbsp;  
 
 ### My Question Is.. :question:
-**How can I manage CSS files following BEM & file structure?...**  
+**How can I manage CSS files following BEM & file structure while in 'create-react-app' system?...**  
 
 &nbsp;  
 &nbsp; 
