@@ -10,7 +10,7 @@
 ### Reviewed Backend basics, API (with Andrei's Udemy course)
 
 &nbsp;
-:small_orange_diamond: Understood ... 
+:small_orange_diamond: LAMP, Servers, API, Scaling
 - [Artical on What is a LAMP stack?](https://www.liquidweb.com/kb/what-is-a-lamp-stack/)
 - Backend system is layers of softwares for a traditional server(Apache server) or Application server(Node server)
 - Web server and database communicates through 'query'
