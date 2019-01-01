@@ -5,6 +5,20 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 1 Dec 2019 - Day 1    
+
+### Happy New Year!!!!!! (with Andrei's Udemy course)
+
+&nbsp;
+:small_orange_diamond: Started to build 'Face detection app'
+- Organizing 'components'
+- Using ['Tilt'](https://www.npmjs.com/package/react-tilt) and ['Particles'](https://www.npmjs.com/package/react-particles-js?activeTab=readme) library.
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
 ## 31 Dec 2018 - Day 45    
 
 ### Reviewed Backend basics, API (with Andrei's Udemy course)
