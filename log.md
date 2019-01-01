@@ -14,6 +14,10 @@
 - Organizing 'components'
 - Using ['Tilt'](https://www.npmjs.com/package/react-tilt) and ['Particles'](https://www.npmjs.com/package/react-particles-js?activeTab=readme) library.
 
+### Today's coder shot  :camera:  
+![screen shot 2019-01-01 at 10 59 05 pm](https://user-images.githubusercontent.com/42050917/50573624-fd1d3880-0e1a-11e9-9f31-edc5c2576701.JPG)  
+  
+
 &nbsp;  
 &nbsp;  
 &nbsp; 
