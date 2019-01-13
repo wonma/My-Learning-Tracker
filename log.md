@@ -11,7 +11,7 @@
 
 &nbsp;
 :small_orange_diamond: Learned what?
-- Had to review **'reduce', 'sum'** method to solve Santa quiz in the teacher's way.
+- Had to review **'reduce', 'some'** method to solve Santa quiz in the teacher's way.
   
 &nbsp;  
 &nbsp;  
@@ -28,7 +28,7 @@
 - 'Three steps for problem-solving: **Understand, Plan, Divide into Smaller tasks**'   
    learned from ['How to think like a programmer'](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
 - Will join this challenge every year! [Santa Quiz 2015 day1](https://adventofcode.com/2015/day/1)
-- Applied 'regex' to solve the Santa quiz above.
+- My solution for Santa quiz below.
   
 ```JavaScript 
 // Quiz 1: What floor does Santa end up on?
@@ -51,7 +51,9 @@ function goSanta1() {
     })
 }
 ``` 
-_I used Regex to filter out each parenthesis, which took more time than teacher's solution_  
+_I used Regex to filter out each parenthesis, which took more time than teacher's solution_    
+
+&nbsp;   
 
 ```JavaScript 
 // Quiz 2: At what position does Santa first enter the basement?
