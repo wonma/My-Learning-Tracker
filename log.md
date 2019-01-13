@@ -25,7 +25,54 @@
 &nbsp;
 :small_orange_diamond: What to remember?
 - 'fs.readFile' is asynchronous while 'fs.readFileSync' is synchronous.
-- 'Three steps for problem-solving: Understand, Plan, Divide into Smaller tasks' learned from ['How to think like a programmer'](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
+- 'Three steps for problem-solving: **Understand, Plan, Divide into Smaller tasks**'   
+   learned from ['How to think like a programmer'](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
+- Will join this challenge every year! [Santa Quiz 2015 day1](https://adventofcode.com/2015/day/1)
+- Applied 'regex' to solve the Santa quiz above.
+  
+```JavaScript 
+// Quiz 1: What floor does Santa end up on?
+function goSanta1() {
+    fs.readFile('santa.txt', (err, data) => {
+        const encodedString = data.toString()
+        const upRegex = /\(/g
+        const downRegex = /\)/g
+        const upCount = encodedString.match(upRegex).length
+        const downCount = encodedString.match(downRegex).length
+        let result = 0
+        if (upCount > downCount) {
+            result = upCount - downCount
+        } else if (upCount < downCount) {
+            result = (downCount - upCount) * -1
+        } else {
+            result = 0
+        }
+        console.log(result)
+    })
+}
+``` 
+_I used Regex to filter out each parenthesis, which took more time than teacher's solution_  
+
+```JavaScript 
+// Quiz 2: At what position does Santa first enter the basement?
+function goSanta2() {
+    fs.readFile('santa.txt', (err, data) => {
+        const theString = data.toString()
+        const theArr = theString.split('')
+        let prev = 0
+        let adder = 0
+
+        for (let i = 0; prev >= 0; i++) {
+            if (theArr[i] === '(') {adder = 1} 
+            else if (theArr[i] === ')') {adder = -1}
+            prev = prev + adder
+            if (prev < 0) {console.log(i + 1)}
+        }
+    })
+}
+```  
+_I used for loop to iterate till it hit the basement position_  
+
   
 &nbsp;  
 &nbsp;  
