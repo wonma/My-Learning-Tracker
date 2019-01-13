@@ -5,26 +5,28 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 13 Jan 2019 - Day 52    
+
+### Revied 'Santa quiz' and Worked on FaceTector app (Day 5)
+
+&nbsp;
+:small_orange_diamond: Learned what?
+- Had to review **'reduce', 'sum'** method to solve Santa quiz in the teacher's way.
+  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
 ## 12 Jan 2019 - Day 51    
 
-### Practice FS(File System) Module, solving 'Santa quiz'
+### Practiced FS(File System) Module, solved 'Santa quiz' Day1 of 2015
 
 &nbsp;
 :small_orange_diamond: What to remember?
 - 'fs.readFile' is asynchronous while 'fs.readFileSync' is synchronous.
-- Read [How to think like a programmer](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) (Understand, Plan, Divide into Smaller tasks)
-
-### My Code :ok_hand: vs. Better Code :thumbsup:   
-**A1. My code** (couldn't come up with join method)
-```JavaScript
-.....
-```   
+- 'Three steps for problem-solving: Understand, Plan, Divide into Smaller tasks' learned from ['How to think like a programmer'](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
   
-**A2. Teacher's code** 
-```JavaScript
-.....
-```
-
 &nbsp;  
 &nbsp;  
 &nbsp; 
