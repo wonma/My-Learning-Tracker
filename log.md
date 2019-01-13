@@ -5,12 +5,109 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
-## 1 Dec 2019 - Day 1    
+## 12 Jan 2019 - Day 51    
+
+### Practice FS(File System) Module, solving 'Santa quiz'
+
+&nbsp;
+:small_orange_diamond: What to remember?
+- 'fs.readFile' is asynchronous while 'fs.readFileSync' is synchronous.
+- Read [How to think like a programmer](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) (Understand, Plan, Divide into Smaller tasks)
+
+### My Code :ok_hand: vs. Better Code :thumbsup:   
+**A1. My code** (couldn't come up with join method)
+```JavaScript
+.....
+```   
+  
+**A2. Teacher's code** 
+```JavaScript
+.....
+```
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 10 Jan 2019 - Day 50    
+
+### REST API, Building a server with Node.js(Express.js)
+
+&nbsp;
+:small_orange_diamond: What I Added more?
+- Basic concepts of REST API
+- Node File System Module
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 4 Jan 2019 - Day 49    
+
+### Working on React Project 'Face detector' (Day 4)
+
+&nbsp;
+:small_orange_diamond: What I Added more?
+- Got the notice message to show up when url is not valid (No broken image url reaction)
+- Got the order of detecting as follows: target image -> loading svg -> bounding box
+- Enabled detection of multiple faces in a photo
+
+
+### Today's coder shot  :camera:  
+
+![screen shot 2019-01-13 at 2 15 30 pm](https://user-images.githubusercontent.com/42050917/51081860-b80fd500-173d-11e9-86c4-bdf3330cec04.JPG)
+  
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 3 Jan 2019 - Day 48    
+
+### Working on React Project 'Face detector' (Day 3)
+
+&nbsp;
+:small_orange_diamond: What I Added more?
+- Received the coordinates of a person's face in a photo from [Clarifai API](https://clarifai.com/models/face-detection-image-recognition-model-a403429f2ddf4b49b307e318f00e528b-detection)
+- Got the detection bounding box to work for a single face
+
+### Today's coder shot  :camera:  
+
+![screen shot 2019-01-13 at 2 10 07 pm](https://user-images.githubusercontent.com/42050917/51081835-f5c02e00-173c-11e9-9e4d-b5eb4ca441d8.JPG)
+  
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 2 Jan 2019 - Day 47    
+
+### Working on React Project 'Face detector' (Day 2)
+
+&nbsp;
+:small_orange_diamond: What I Added more?
+- Particle background using the library [Particle.js](https://vincentgarreau.com/particles.js/)
+- Got the image to show up after clicking the button
+
+### Today's coder shot  :camera:  
+![screen shot 2019-01-03 at 12 23 02 am](https://user-images.githubusercontent.com/42050917/51081794-97df1680-173b-11e9-9cbf-382474976877.JPG)
+  
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 1 Jan 2019 - Day 46    
 
 ### Happy New Year!!!!!! (with Andrei's Udemy course)
 
 &nbsp;
-:small_orange_diamond: Started to build 'Face detection app'
+:small_orange_diamond: Started to build 'Face detection app' (Day 1)
 - Organizing 'components'
 - Using ['Tilt'](https://www.npmjs.com/package/react-tilt) and ['Particles'](https://www.npmjs.com/package/react-particles-js?activeTab=readme) library.
 
