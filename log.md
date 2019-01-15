@@ -7,7 +7,7 @@
 ----------------------------------------------------------  
 ## 15 Jan 2019 - Day 54    
 
-### FaceTector app (Day 7)
+### FaceTector app (Day 6)
 
 &nbsp;
 :small_orange_diamond: Learned how to connect front-end to server
@@ -22,7 +22,7 @@
 ----------------------------------------------------------  
 ## 14 Jan 2019 - Day 53    
 
-### Reviewed 'Santa quiz' / FaceTector app (Day 6)
+### 'Santa quiz' / FaceTector app (Day 5)
 
 &nbsp;
 :small_orange_diamond: Learned what?
@@ -37,7 +37,7 @@
 ----------------------------------------------------------  
 ## 13 Jan 2019 - Day 52    
 
-### 'Santa quiz' + FaceTector app (Day 5)
+### Reviewed 'Santa quiz'
 
 &nbsp;
 :small_orange_diamond: Learned what?
