@@ -7,10 +7,10 @@
 ----------------------------------------------------------  
 ## 15 Jan 2019 - Day 54    
 
-### Learned how to connect front-end to server...!(FaceTector app - Day 7)
+### FaceTector app (Day 7)
 
 &nbsp;
-:small_orange_diamond: Learned what?
+:small_orange_diamond: Learned how to connect front-end to server
 - Why we need CORS package
 - Inner smart component can be needed depending on the situation (Sign-in)
 - How to use 'fetch' method for POST request
@@ -22,7 +22,7 @@
 ----------------------------------------------------------  
 ## 14 Jan 2019 - Day 53    
 
-### Reviewed 'Santa quiz' / Worked on FaceTector app more (Day 6)
+### Reviewed 'Santa quiz' / FaceTector app (Day 6)
 
 &nbsp;
 :small_orange_diamond: Learned what?
@@ -37,7 +37,7 @@
 ----------------------------------------------------------  
 ## 13 Jan 2019 - Day 52    
 
-### Reviewed 'Santa quiz' and Worked on FaceTector app more (Day 5)
+### 'Santa quiz' + FaceTector app (Day 5)
 
 &nbsp;
 :small_orange_diamond: Learned what?
@@ -50,7 +50,7 @@
 ----------------------------------------------------------  
 ## 12 Jan 2019 - Day 51    
 
-### Practiced FS(File System) Module, solved 'Santa quiz' Day1 of 2015
+### Practiced FS(File System) Module, + 'Santa quiz' Day1 of 2015
 
 &nbsp;
 :small_orange_diamond: What to remember?
@@ -127,7 +127,7 @@ _I used for loop to iterate till it hit the basement position_
 ----------------------------------------------------------  
 ## 4 Jan 2019 - Day 49    
 
-### Working on React Project 'Face detector' (Day 4)
+### React Project 'Face detector' (Day 4)
 
 &nbsp;
 :small_orange_diamond: What I Added more?
@@ -148,7 +148,7 @@ _I used for loop to iterate till it hit the basement position_
 ----------------------------------------------------------  
 ## 3 Jan 2019 - Day 48    
 
-### Working on React Project 'Face detector' (Day 3)
+### React Project 'Face detector' (Day 3)
 
 &nbsp;
 :small_orange_diamond: What I Added more?
@@ -167,7 +167,7 @@ _I used for loop to iterate till it hit the basement position_
 ----------------------------------------------------------  
 ## 2 Jan 2019 - Day 47    
 
-### Working on React Project 'Face detector' (Day 2)
+### React Project 'Face detector' (Day 2)
 
 &nbsp;
 :small_orange_diamond: What I Added more?
@@ -188,7 +188,7 @@ _I used for loop to iterate till it hit the basement position_
 ### Happy New Year!!!!!! (with Andrei's Udemy course)
 
 &nbsp;
-:small_orange_diamond: Started to build 'Face detection app' (Day 1)
+:small_orange_diamond: Started to build **'Face detection app' (Day 1)**
 - Organizing 'components'
 - Using ['Tilt'](https://www.npmjs.com/package/react-tilt) and ['Particles'](https://www.npmjs.com/package/react-particles-js?activeTab=readme) library.
 
