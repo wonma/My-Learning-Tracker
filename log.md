@@ -5,9 +5,39 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 15 Jan 2019 - Day 54    
+
+### Learned how to connect front-end to server...!(FaceTector app - Day 7)
+
+&nbsp;
+:small_orange_diamond: Learned what?
+- Why we need CORS package
+- Inner smart component can be needed depending on the situation (Sign-in)
+- How to use 'fetch' method for POST request
+  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 14 Jan 2019 - Day 53    
+
+### Reviewed 'Santa quiz' / Worked on FaceTector app more (Day 6)
+
+&nbsp;
+:small_orange_diamond: Learned what?
+- Started to understand routes
+- API design
+- Creating API endpoints of 'sign in, register, profile, image(entries update)' endpoints
+  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
 ## 13 Jan 2019 - Day 52    
 
-### Revied 'Santa quiz' and Worked on FaceTector app (Day 5)
+### Reviewed 'Santa quiz' and Worked on FaceTector app more (Day 5)
 
 &nbsp;
 :small_orange_diamond: Learned what?
