@@ -17,8 +17,8 @@
 
 ### Today's coder shot  :camera:  
 
-![signin](https://user-images.githubusercontent.com/42050917/51278003-b6cff800-1a1c-11e9-94f2-1034c3af98a4.gif)
-_Oh yeah? This was how the apps say 'Hello, Wonmi, it's a good day' haha_
+![signin](https://user-images.githubusercontent.com/42050917/51278003-b6cff800-1a1c-11e9-94f2-1034c3af98a4.gif)   
+_Oh yeah? This was how the apps say 'Hello, Wonmi, it's a good day' hahahahaha_
 
 &nbsp;  
 &nbsp;  
