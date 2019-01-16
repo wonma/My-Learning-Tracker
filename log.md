@@ -5,6 +5,26 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 16 Jan 2019 - Day 56    
+
+### FaceTector app (Day 7)
+
+&nbsp;
+:small_orange_diamond: Connected register from front-end to server
+- Rendered user info recieved from server!!! (felt so coooool)
+- Left with so much curiosity of registration & validation logic...!!
+- Still need to figure out API response (esp. when it fails for registration)  
+
+### Today's coder shot  :camera:  
+
+![signin](https://user-images.githubusercontent.com/42050917/51278003-b6cff800-1a1c-11e9-94f2-1034c3af98a4.gif)
+_Oh yeah? This was how the apps say 'Hello, Wonmi, it's a good day' haha_
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
 ## 15 Jan 2019 - Day 54    
 
 ### FaceTector app (Day 6)
