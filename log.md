@@ -32,9 +32,18 @@ _Oh yeah? This was how the apps say 'Hello, Wonmi, it's a good day' hahahahaha_
 &nbsp;
 :small_orange_diamond: Learned how to connect front-end to server
 - Why we need CORS package
-- Inner smart component can be needed depending on the situation (Sign-in)
-- How to use 'fetch' method for POST request
-  
+- Inner 'smart' component can be needed depending on the situation (Sign-in Component in App Component)
+- How to use 'fetch' method for POST request(using the second argument)
+
+### Best Error of Today :sweat_drops:  
+  &nbsp;  
+**Check the ports! one for the server and the other for front-end **.  
+![screen shot 2019-01-16 at 4 28 00 am](https://user-images.githubusercontent.com/42050917/51296029-8492ba80-1a5d-11e9-8343-282d74168b97.JPG)  
+**body must be submitted as JSON data!! (Do JSON.stringify for the body object) **.  
+![screen shot 2019-01-16 at 5 10 36 am](https://user-images.githubusercontent.com/42050917/51296103-d4718180-1a5d-11e9-928d-20a6d226ef1e.JPG)  
+
+
+
 &nbsp;  
 &nbsp;  
 &nbsp; 
@@ -46,10 +55,25 @@ _Oh yeah? This was how the apps say 'Hello, Wonmi, it's a good day' hahahahaha_
 
 &nbsp;
 :small_orange_diamond: Learned what?
-- Started to understand routes
+- Started to understand **routes**
 - API design
-- Creating API endpoints of 'sign in, register, profile, image(entries update)' endpoints
-  
+- Creating API endpoints of 'sign in, register, profile, image(entries update)' endpoints 
+```JavaScript 
+/ —> res = this is working
+/signin —> POST = success/fail   (POST인 이유는, query로 보이지 않게 하기 위함이야)
+/register —> POST = user 
+/profile/:userId —> GET = user
+/image —> PUT = user
+``` 
+
+### My Code :ok_hand: vs. Better Code :thumbsup: 
+
+**A1. My code** (No destruction, complicated var name, no res status)
+![screen shot 2019-01-15 at 3 18 18 am](https://user-images.githubusercontent.com/42050917/51295724-46e16200-1a5c-11e9-92dc-c6cf63a77422.JPG)   
+   
+**A2. Teacher's code**   
+![screen shot 2019-01-15 at 3 18 09 am](https://user-images.githubusercontent.com/42050917/51295723-4648cb80-1a5c-11e9-817e-57d19196cd98.JPG)
+
 &nbsp;  
 &nbsp;  
 &nbsp; 
@@ -76,7 +100,9 @@ _Oh yeah? This was how the apps say 'Hello, Wonmi, it's a good day' hahahahaha_
 :small_orange_diamond: What to remember?
 - 'fs.readFile' is asynchronous while 'fs.readFileSync' is synchronous.
 - 'Three steps for problem-solving: **Understand, Plan, Divide into Smaller tasks**'   
-   learned from ['How to think like a programmer'](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
+   learned from ['How to think like a programmer'](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)   
+![screen shot 2019-01-13 at 1 05 50 am](https://user-images.githubusercontent.com/42050917/51296224-72654c00-1a5e-11e9-8884-106adfa15973.JPG)  
+_How I followed the thinking steps before hitting Santa logic_   
 - Will join this challenge every year! [Santa Quiz 2015 day1](https://adventofcode.com/2015/day/1)
 - My solution for Santa quiz below.
   
@@ -139,7 +165,7 @@ _I used for loop to iterate till it hit the basement position_
 :small_orange_diamond: What I Added more?
 - Basic concepts of REST API
 - Node File System Module
-
+  
 &nbsp;  
 &nbsp;  
 &nbsp; 
