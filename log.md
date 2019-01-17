@@ -66,14 +66,6 @@ _Oh yeah? This was how the apps say 'Hello, Wonmi, it's a good day' hahahahaha_
 /image —> PUT = user
 ``` 
 
-### My Code :ok_hand: vs. Better Code :thumbsup: 
-
-**A1. My code** (No destruction, complicated var name, no res status)
-![screen shot 2019-01-15 at 3 18 18 am](https://user-images.githubusercontent.com/42050917/51295724-46e16200-1a5c-11e9-92dc-c6cf63a77422.JPG)   
-   
-**A2. Teacher's code**   
-![screen shot 2019-01-15 at 3 18 09 am](https://user-images.githubusercontent.com/42050917/51295723-4648cb80-1a5c-11e9-817e-57d19196cd98.JPG)
-
 &nbsp;  
 &nbsp;  
 &nbsp; 
