@@ -5,6 +5,26 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 16 Jan 2019 - Day 57   
+
+### Learned SQL by PostgreSQL 
+
+&nbsp;
+:small_orange_diamond: Table manipulation
+- CREATE TABLE / INSERT INTO / SELECT * FROM 
+- ALTER TABLE / UPDATE / AVG,SUM,COUNT
+- Idea of Primary Key _SELECT * FROM users **JOIN** login **ON** users.name = login.name;_
+
+### Useful Links for SQL exercises
+
+https://www.khanacademy.org/computing/computer-programming/sql
+https://www.codecademy.com/learn/learn-sql
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
 ## 16 Jan 2019 - Day 56    
 
 ### FaceTector app (Day 7)
