@@ -13,7 +13,8 @@
 :small_orange_diamond: Table manipulation
 - CREATE TABLE / INSERT INTO / SELECT * FROM 
 - ALTER TABLE / UPDATE / AVG,SUM,COUNT
-- Idea of Primary Key _SELECT * FROM users **JOIN** login **ON** users.name = login.name;_
+- Idea of Primary Key and Foreign Key  
+- _SELECT * FROM users **JOIN** login **ON** users.name = login.name;_
 
 ### Useful Links for SQL exercises
 
