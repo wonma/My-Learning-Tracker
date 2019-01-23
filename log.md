@@ -17,7 +17,7 @@
 
 ### Useful Links for SQL exercises
 
-https://www.khanacademy.org/computing/computer-programming/sql
+https://www.khanacademy.org/computing/computer-programming/sql   
 https://www.codecademy.com/learn/learn-sql
 
 &nbsp;  
