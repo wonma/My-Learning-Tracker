@@ -5,7 +5,60 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
-## 16 Jan 2019 - Day 57   
+## 3 Feb 2019 - Day 58   
+
+### FaceTector app (Day 8) 
+
+&nbsp;
+:small_orange_diamond: Connected the database with the server, using 'Knex.js'
+- Finished queries for endpoints: Register / Sign up / Image / profile
+- knex turns its own query statement into a general SQL statement
+- knex query itself resolves into a promise. 
+- error handler can be added by using '.catch'
+- using **'transaction'** to have relational database ('login' and 'users' tables)
+
+### Best Error of Today :sweat_drops:
+
+**When using transaction**. 
+  
+```JavaScript 
+app.post('/register', (req, res) => {
+    const { name, email, password } = req.body
+    const hash = bcrypt.hashSync(password, 10)
+    
+    db.transaction(trx => {
+        trx.insert({
+            email: email,
+            hash: hash
+            }, 'email')     // error 1 - no single quotation
+            .into('login')
+            .then(loginEmail => {
+               return trx.insert({  // error 2 - no 'return' (있어야할 이유 잘 모르겠음)
+                    name: name,
+                    email: loginEmail[0],
+                    joined: new Date()
+                }, '*')
+                .into('users')
+                .then(user => {
+                    console.log(user[0])
+                    res.json(user[0])
+                })
+            })
+            .then(trx.commit)
+            .catch(trx.rollback)   // error 3 - no 'catch' but 'then'
+    })
+    .catch(err => {
+        res.status(400).json('Unable to register')
+    })
+})
+```  
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 17 Jan 2019 - Day 57   
 
 ### Learned SQL by PostgreSQL 
 
