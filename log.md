@@ -30,10 +30,10 @@ app.post('/register', (req, res) => {
         trx.insert({
             email: email,
             hash: hash
-            }, 'email')     // error 1 - no single quotation
+            }, 'email')     // error 1 - single quotation
             .into('login')
             .then(loginEmail => {
-               return trx.insert({  // error 2 - no 'return' (있어야할 이유 잘 모르겠음)
+               return trx.insert({  // error 2 - 'return' (있어야할 이유 잘 모르겠음)
                     name: name,
                     email: loginEmail[0],
                     joined: new Date()
@@ -45,7 +45,7 @@ app.post('/register', (req, res) => {
                 })
             })
             .then(trx.commit)
-            .catch(trx.rollback)   // error 3 - no 'catch' but 'then'
+            .catch(trx.rollback)   // error 3 - 'catch' not 'then'
     })
     .catch(err => {
         res.status(400).json('Unable to register')
