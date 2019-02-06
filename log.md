@@ -14,8 +14,8 @@
 - Fixed details of design
 - SignIn validation preventing empty field
 - Register validation for password
-- Appropriate noticing message for failed invalid input
-![dd](https://user-images.githubusercontent.com/42050917/52359018-63315700-2a7c-11e9-987d-a9590b0efd4d.gif)  
+- Appropriate noticing message for failed invalid input   
+![dd](https://user-images.githubusercontent.com/42050917/52359018-63315700-2a7c-11e9-987d-a9590b0efd4d.gif)    
 
 &nbsp;  
 #### Helpful Links
