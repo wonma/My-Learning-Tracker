@@ -5,6 +5,64 @@
 |Content|Learnt, thoughts, progress, ideas, links|
 
 ----------------------------------------------------------  
+## 6 Feb 2019 - Day 61   
+
+### FaceTector app (Day 11) 
+
+&nbsp;
+:small_orange_diamond: Added server-side validation   
+- Fixed details of design
+- SignIn validation preventing empty field
+- Register validation for password
+- Appropriate noticing message for failed invalid input
+![dd](https://user-images.githubusercontent.com/42050917/52359018-63315700-2a7c-11e9-987d-a9590b0efd4d.gif)  
+
+&nbsp;  
+#### Helpful Links
+- [regexlib](http://regexlib.com/Search.aspx?k=password&AspxAutoDetectCookieSupport=1) for regex server-side password validation
+- [React User Login & SignUp Form Validation(youtube)](https://www.youtube.com/watch?v=TGgahyJfCZo&t=697s)
+
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 5 Feb 2019 - Day 60   
+
+### FaceTector app (Day 10) 
+
+&nbsp;
+:small_orange_diamond: retouched server script and followed code review  
+- Added more CSS for better user experience.
+- Added an error noticing feature.
+- Got the bounding box animated as I intended to give more intuitive understanding of content.
+![screen shot 2019-02-07 at 2 00 41 am](https://user-images.githubusercontent.com/42050917/52358948-409f3e00-2a7c-11e9-94d6-26cea5108c80.JPG)
+
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
+## 4 Feb 2019 - Day 59   
+
+### FaceTector app (Day 9) 
+
+&nbsp;
+:small_orange_diamond: retouched server script and followed code review  
+- Learned how to manage server-side script with 'controller' folder (separation of concerns)  
+- dependency injection (+ module.export and require syntax)  
+- fixed a issue of having the search result from previously logged in user.  
+  **Approach problem-solving with 3 steps! This way I could fix the issue in confidence!**     
+  1) Understand problem (+ cause of problem)  
+  2) Plan how to tackle  
+  3) Start with small task  
+  The cause was from the remaining values assigned to 'this.state'. Got it updated by 'this.setState(initialState)'  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+
+----------------------------------------------------------  
 ## 3 Feb 2019 - Day 58   
 
 ### FaceTector app (Day 8) 
